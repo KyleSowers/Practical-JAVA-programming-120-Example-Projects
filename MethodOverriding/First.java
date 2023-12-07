@@ -7,4 +7,8 @@ public class First {
         y = b;
     }
 
+    void display() {
+        System.out.println("x:" + x);
+        System.out.println("y:" + y);
+    }
 }
