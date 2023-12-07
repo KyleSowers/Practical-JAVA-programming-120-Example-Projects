@@ -12,3 +12,11 @@ public class First {
         System.out.println("y:" + y);
     }
 }
+
+class Second extends First {
+    int z
+    Second(int a, int b, int c) {
+        super(a, b);
+        z = c;
+    }
+}
