@@ -10,5 +10,8 @@ public class Employee {
         System.out.println("Employee number is: " + Reg_no);
     }
 
-
+    public static void main(String args[]) {
+        Employee em = new Employee(201);
+        em.display();
+    }
 }
