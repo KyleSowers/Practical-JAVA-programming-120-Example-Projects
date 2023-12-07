@@ -14,9 +14,13 @@ public class First {
 }
 
 class Second extends First {
-    int z
+    int z;
     Second(int a, int b, int c) {
         super(a, b);
         z = c;
+    }
+    void display() {
+        super.display();
+        System.out.println("z:" + z);
     }
 }
