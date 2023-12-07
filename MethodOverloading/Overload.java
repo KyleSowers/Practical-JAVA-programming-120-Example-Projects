@@ -1,5 +1,9 @@
 package MethodOverloading;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Overload {
 
     String add(String a, String b) {
@@ -7,4 +11,9 @@ public class Overload {
     }
 }
 
+class StringOverload {
+    public static void main(String args[]) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    }
+}
 
