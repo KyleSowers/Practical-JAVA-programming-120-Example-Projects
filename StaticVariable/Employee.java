@@ -10,4 +10,10 @@ public class Employee {
         Reg_no = a;
         Name = b;
     }
+
+    void display() {
+        System.out.println("Your details are: " + Reg_no + " " + Name + " " + Company);
+    }
+
+
 }
