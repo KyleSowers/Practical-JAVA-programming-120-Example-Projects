@@ -36,4 +36,10 @@ class Output extends Employee {
         Total = Rt1+Rt2+Rt3;
         Average = (float)Total/3;
     }
+
+    void screenshow() {
+        System.out.println("Overall Rating is: " + Total);
+        System.out.println("Your percentage is: " + Average);
+    }
 }
+
