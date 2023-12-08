@@ -43,3 +43,11 @@ class Output extends Employee {
     }
 }
 
+class Company {
+    public static void main(String args[]) throws Exception {
+        Output ot = new Output();
+        ot.evaluate();
+        ot.screenshow();
+        ot.display();
+    }
+}
