@@ -9,4 +9,13 @@ public class Employee {
     String Name;
 
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    void GetInput() throws  Exception {
+        System.out.println("Please enter Employee details: Reg_no, Name, Skill Levels of Java, Python, PHP");
+        Reg_no = Integer.parseInt(br.readLine());
+        Name = br.readLine();
+        Rt1 = Integer.parseInt(br.readLine());
+        Rt2 = Integer.parseInt(br.readLine());
+        Rt3 = Integer.parseInt(br.readLine());
+    }
 }
