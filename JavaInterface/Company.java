@@ -26,3 +26,14 @@ public class Employee {
         System.out.println(("Your PHP Skill is: " + Rt3));
     }
 }
+
+class Output extends Employee {
+    int Total;
+    float Average;
+
+    void evaluate() throws Exception {
+        GetInput();
+        Total = Rt1+Rt2+Rt3;
+        Average = (float)Total/3;
+    }
+}
