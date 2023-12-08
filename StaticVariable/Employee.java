@@ -15,5 +15,8 @@ public class Employee {
         System.out.println("Your details are: " + Reg_no + " " + Name + " " + Company);
     }
 
-
+    public static void  main(String args[]) {
+        Employee em = new Employee(201, "Ejike");
+        em.display();
+    }
 }
