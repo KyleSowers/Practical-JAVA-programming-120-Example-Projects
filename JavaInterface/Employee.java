@@ -18,4 +18,11 @@ public class Employee {
         Rt2 = Integer.parseInt(br.readLine());
         Rt3 = Integer.parseInt(br.readLine());
     }
+    void display() {
+        System.out.println("Your Reg_no is: " + Reg_no);
+        System.out.println("Your Name is: " + Name);
+        System.out.println("Your Java Skill is: " + Rt1);
+        System.out.println("Your Python Skill is: " + Rt2);
+        System.out.println(("Your PHP Skill is: " + Rt3));
+    }
 }
