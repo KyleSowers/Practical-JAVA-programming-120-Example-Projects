@@ -13,5 +13,8 @@ public class SubtractMatrix {
         int num3[][] = new int[3][3];
 
         int x, y;
+
+        System.out.println("Please insert first 9 matrix values (3 rows, each with 3 integer values)");
+
     }
 }
