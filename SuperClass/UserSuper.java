@@ -12,3 +12,14 @@ class FirstSuper {
         System.out.println("Value of Y is: " + y);
     }
 }
+
+class SecondSuper extends FirstSuper {
+    int z;
+
+    SecondSuper(int a, int b, int c) {
+        super(a, b);
+        z = c;
+    }
+
+}
+
