@@ -40,6 +40,10 @@ public class AddMatrix {
             System.out.println();
         }
 
-
+        for (x = 0; x < 2; x++) {
+            for (y = 0; y < 2; y++) {
+                num3[x][y] = num1[x][y] + num2[x][y];
+            }
+        }
     }
 }
