@@ -45,5 +45,13 @@ public class SubtractMatrix {
                 num3[x][y] = num1[x][y] - num2[x][y];
             }
         }
+
+        System.out.println("Result of Subtraction is: ");
+        for (x = 0; x < 3; x++) {
+            for (y = 0; y < 3; y++) {
+                System.out.print(" " + num3[x][y]);
+            }
+            System.out.println();
+        }
     }
 }
