@@ -10,6 +10,8 @@ public class MatrixPrinter {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int num1[][] = new int[3][3];
+        int x, y;
+        System.out.println("Please, enter 9 Integer values: ");
 
     }
 }
