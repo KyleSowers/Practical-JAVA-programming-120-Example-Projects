@@ -45,5 +45,7 @@ public class AddMatrix {
                 num3[x][y] = num1[x][y] + num2[x][y];
             }
         }
+        System.out.println("the sum of the matrix is: ");
+
     }
 }
