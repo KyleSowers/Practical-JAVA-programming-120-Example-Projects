@@ -40,6 +40,10 @@ public class SubtractMatrix {
             System.out.println();
         }
 
-
+        for (x = 0; x < 3; x++) {
+            for (y = 0; y < 3; y++) {
+                num3[x][y] = num1[x][y] - num2[x][y];
+            }
+        }
     }
 }
