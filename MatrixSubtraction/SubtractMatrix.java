@@ -27,6 +27,7 @@ public class SubtractMatrix {
             System.out.println();
         }
 
+        System.out.println("Please insert second 9 matrix values (3 rows, each with 3 integer values)");
 
     }
 }
