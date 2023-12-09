@@ -15,6 +15,18 @@ public class SubtractMatrix {
         int x, y;
 
         System.out.println("Please insert first 9 matrix values (3 rows, each with 3 integer values)");
+        for (x = 0; x < 3; x++) {
+            for (y = 0; y < 3; y++) {
+                num1[x][y] = Integer.parseInt(br.readLine());
+            }
+        }
+        for (x = 0; x < num1.length; x++) {
+            for (y = 0; y < 3; y++) {
+                System.out.print(" " + num1[x][y]);
+            }
+            System.out.println();
+        }
+
 
     }
 }
