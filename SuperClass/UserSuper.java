@@ -21,5 +21,10 @@ class SecondSuper extends FirstSuper {
         z = c;
     }
 
+    void show() {
+        super.show();
+        System.out.println("Value of Z is: " + z);
+    }
+
 }
 
