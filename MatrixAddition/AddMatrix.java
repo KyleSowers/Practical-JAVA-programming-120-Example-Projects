@@ -15,5 +15,17 @@ public class AddMatrix {
 
         System.out.println("Please insert 1st integer values for matrix addition: ");
 
+        for(x = 0; x < 2; x++) {
+            for (y = 0; y < 2; y++) {
+                num1[x][y] = Integer.parseInt(br.readLine());
+            }
+        }
+        for (x = 0; x < num1.length; x++) {
+            for (y = 0; y < 2; y++) {
+                System.out.print(" " + num1[x][y]);
+            }
+            System.out.println();
+        }
+
     }
 }
