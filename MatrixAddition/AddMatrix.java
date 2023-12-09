@@ -26,6 +26,8 @@ public class AddMatrix {
             }
             System.out.println();
         }
+        System.out.println("Please insert 2nd integer values for matrix addition: ");
+
 
     }
 }
