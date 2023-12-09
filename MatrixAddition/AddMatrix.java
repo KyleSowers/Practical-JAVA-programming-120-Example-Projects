@@ -47,5 +47,11 @@ public class AddMatrix {
         }
         System.out.println("the sum of the matrix is: ");
 
+        for (x = 0; x < 2; x++) {
+            for (y = 0; y < 2; y++) {
+                System.out.print(" " + num3[x][y]);
+            }
+            System.out.println();
+        }
     }
 }
