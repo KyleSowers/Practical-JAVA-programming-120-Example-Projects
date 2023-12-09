@@ -28,6 +28,18 @@ public class AddMatrix {
         }
         System.out.println("Please insert 2nd integer values for matrix addition: ");
 
+        for (x = 0; x < 2; x++) {
+            for (y = 0; y < 2; y++) {
+                num2[x][y] = Integer.parseInt(br.readLine());
+            }
+        }
+        for (x = 0; x < num2.length; x++) {
+            for (y = 0; y < 2; y++) {
+                System.out.print(" " + num2[x][y]);
+            }
+            System.out.println();
+        }
+
 
     }
 }
