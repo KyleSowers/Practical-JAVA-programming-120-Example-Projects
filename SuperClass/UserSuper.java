@@ -7,4 +7,8 @@ class FirstSuper {
         x = a;
         y = b;
     }
+    void show() {
+        System.out.println("Value of X is: " + x);
+        System.out.println("Value of Y is: " + y);
+    }
 }
