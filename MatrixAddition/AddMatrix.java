@@ -13,5 +13,7 @@ public class AddMatrix {
         int num3[][] = new int[2][2];
         int x, y;
 
+        System.out.println("Please insert 1st integer values for matrix addition: ");
+
     }
 }
