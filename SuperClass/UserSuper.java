@@ -25,6 +25,12 @@ class SecondSuper extends FirstSuper {
         super.show();
         System.out.println("Value of Z is: " + z);
     }
+}
 
+public class UserSuper {
+    public static void main(String args[]) {
+        SecondSuper fs = new SecondSuper(100, 200, 300);
+        fs.show();
+    }
 }
 
