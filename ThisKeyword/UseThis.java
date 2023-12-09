@@ -13,4 +13,11 @@ public class UseThis {
         System.out.println("Value of Num1 is: " + num1);
         System.out.println("value of Num2 is: " + num2);
     }
+
+    public static void main(String args[]) {
+        UseThis ut = new UseThis(100, 200);
+        ut.show();
+    }
 }
+
+
