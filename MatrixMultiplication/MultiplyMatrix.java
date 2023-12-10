@@ -28,6 +28,19 @@ public class MultiplyMatrix {
             System.out.println();
         }
 
+        System.out.println("Please, enter Second Matrix");
+        for (x = 0; x < 4; x++) {
+            for (y = 0; y < 4; y++) {
+                num2[x][y] = Integer.parseInt(br.readLine());
+            }
+        }
+        for (x = 0; x < num2.length; x++) {
+            for (y = 0; y < 4; y++) {
+                System.out.print(" " + num2[x][y]);
+            }
+            System.out.println();
+        }
+
 
     }
 }
