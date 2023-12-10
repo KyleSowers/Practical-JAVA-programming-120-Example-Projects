@@ -41,6 +41,13 @@ public class MultiplyMatrix {
             System.out.println();
         }
 
-
+        for (x = 0 x < 4; x++) {
+            for (y = 0; y < 4; y++) {
+                num3[x][y] = 0;
+                for (z = 0; z < 4; z++) {
+                    num3[x][y] = num3[x][y] + (num1[x][z] * num2[z][y]);
+                }
+            }
+        }
     }
 }
