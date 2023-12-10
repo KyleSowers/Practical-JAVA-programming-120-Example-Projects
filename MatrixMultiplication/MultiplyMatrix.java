@@ -49,5 +49,8 @@ public class MultiplyMatrix {
                 }
             }
         }
+        System.out.println("The result of your Multiplication is: ");
+
+
     }
 }
