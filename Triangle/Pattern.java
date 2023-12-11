@@ -7,6 +7,9 @@ public class Pattern {
         for (y = 7; y > x; y--) {
             System.out.print(" ");
         }
-
+        for (z = 1; z <= x; z++) {
+            System.out.println("*");
+        }
+        System.out.println();
     }
 }
