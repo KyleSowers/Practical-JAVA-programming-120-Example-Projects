@@ -41,7 +41,7 @@ public class MultiplyMatrix {
             System.out.println();
         }
 
-        for (x = 0 x < 4; x++) {
+        for (x = 0; x < 4; x++) {
             for (y = 0; y < 4; y++) {
                 num3[x][y] = 0;
                 for (z = 0; z < 4; z++) {
@@ -51,6 +51,11 @@ public class MultiplyMatrix {
         }
         System.out.println("The result of your Multiplication is: ");
 
-
+        for (x = 0; x < 4; x++) {
+            for (y = 0; y < 4; y++) {
+                System.out.print(" " + num3[x][y]);
+            }
+            System.out.println();
+        }
     }
 }
