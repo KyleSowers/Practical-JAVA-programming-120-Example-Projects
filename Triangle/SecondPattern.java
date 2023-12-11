@@ -11,6 +11,7 @@ public class SecondPattern {
             for (z = 7; z >= x; z--) {
                 System.out.print("*");
             }
+            System.out.println();
         }
     }
 }
