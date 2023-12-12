@@ -8,6 +8,7 @@ public class ForthPattern {
                 for (y = 1; y <= x; y++) {
                     System.out.print("*");
                 }
+                System.out.println();
             }
     }
 }
