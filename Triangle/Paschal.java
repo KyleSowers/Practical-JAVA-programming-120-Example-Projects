@@ -1,3 +1,4 @@
+//PRACTICE 25: A PROGRAM TO DRAW PASCHAL TRIANGLE
 package Triangle;
 
 import java.util.Scanner;
