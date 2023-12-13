@@ -8,5 +8,6 @@ public class Paschal {
 
         int x, y, z;
         Scanner sc = new Scanner(System.in);
+        System.out.println("PLease insert number of rows you want: ");
     }
 }
