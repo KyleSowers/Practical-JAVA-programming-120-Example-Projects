@@ -8,5 +8,7 @@ public class Floyds {
 
         int x, num1 = 1, y, z;
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("PLease insert number of rows: ");
     }
 }
