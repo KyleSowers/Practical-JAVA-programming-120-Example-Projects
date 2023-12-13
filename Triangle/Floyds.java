@@ -10,5 +10,7 @@ public class Floyds {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("PLease insert number of rows: ");
+
+        x = sc.nextInt();
     }
 }
