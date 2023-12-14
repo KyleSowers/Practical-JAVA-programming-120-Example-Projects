@@ -7,5 +7,8 @@ public class Area {
         Scanner sc = new Scanner(System.in);
         double w = sc.nextDouble();
         double h = sc.nextDouble();
+
+        double result = (w*h)/2;
+        System.out.println("Result of area of triangle is: " + result);
     }
 }
