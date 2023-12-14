@@ -1,3 +1,4 @@
+//PRACTICE 27: A PROGRAM TO CREATE MULTIPLICATION TABLE
 package Table;
 
 import java.util.Scanner;
