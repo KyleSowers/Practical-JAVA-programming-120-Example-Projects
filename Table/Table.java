@@ -8,5 +8,6 @@ public class Table {
         System.out.println("Please insert a number to print Multiplication Table");
 
         Scanner sc = new Scanner(System.in);
+        x = sc.nextInt();
     }
 }
