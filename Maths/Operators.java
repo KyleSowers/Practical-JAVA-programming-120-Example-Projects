@@ -10,5 +10,7 @@ public class Operators {
 
         int x, y, z, xyz = 0;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("PLease enter first number: ");
+
     }
 }
