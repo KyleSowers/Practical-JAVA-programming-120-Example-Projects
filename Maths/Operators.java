@@ -15,13 +15,33 @@ public class Operators {
         System.out.println("Please enter second number: ");
         y = Integer.parseInt(br.readLine());
 
-        while (xyz! = 6) {
+        while (xyz != 6) {
             System.out.println("1: Addition");
             System.out.println("2: Subtraction");
             System.out.println("3: Division");
             System.out.println("4: Multiplication");
             xyz = Integer.parseInt(br.readLine());
-            switch(xyz)
+            switch(xyz) {
+                case 1:
+                    z = x + y;
+                    System.out.println("Result of Addition is: " + z);
+                    break;
+                case 2:
+                    z = x - y;
+                    System.out.println("Result of Subtraction is: " + z);
+                    break;
+                case 3:
+                    z = x / y;
+                    System.out.println("Result of Division is: " + z);
+                    break;
+                case 4:
+                    z = x * y;
+                    System.out.println("Result of Muliplication is: " + z);
+                    break;
+                case 5:
+                    System.exit(0);
+                    break;
+            }
         }
     }
 }
