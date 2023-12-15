@@ -12,5 +12,6 @@ public class Operators {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("PLease enter first number: ");
         x = Integer.parseInt(br.readLine());
+        System.out.println("Please enter second number: ");
     }
 }
