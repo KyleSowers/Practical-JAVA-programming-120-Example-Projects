@@ -7,20 +7,27 @@ import java.io.InputStreamReader;
 
 public class Operators {
     public static void main(String args[]) throws NumberFormatException, IOException {
-
+        //declare instance variables
         int x, y, z, xyz = 0;
+        //created new buffer reader
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        //request first integer from user
         System.out.println("PLease enter first number: ");
+        //store value
         x = Integer.parseInt(br.readLine());
+        //request second integer from user
         System.out.println("Please enter second number: ");
+        //store value
         y = Integer.parseInt(br.readLine());
-
+        //create a while loop condition with print statements preceding a switch
         while (xyz != 6) {
             System.out.println("1: Addition");
             System.out.println("2: Subtraction");
             System.out.println("3: Division");
             System.out.println("4: Multiplication");
+            //reade user option/input
             xyz = Integer.parseInt(br.readLine());
+            //switch cases for correct output/looping
             switch(xyz) {
                 case 1:
                     z = x + y;
