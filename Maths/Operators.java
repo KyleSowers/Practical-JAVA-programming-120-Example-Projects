@@ -13,5 +13,6 @@ public class Operators {
         System.out.println("PLease enter first number: ");
         x = Integer.parseInt(br.readLine());
         System.out.println("Please enter second number: ");
+        y = Integer.parseInt(br.readLine());
     }
 }
