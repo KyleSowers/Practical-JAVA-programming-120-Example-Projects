@@ -1,3 +1,4 @@
+//PROJECT 34: A PROGRAM TO DETECT EVEN AND ODD NUMBERS
 package EvenOdd;
 
 import java.util.Scanner;
