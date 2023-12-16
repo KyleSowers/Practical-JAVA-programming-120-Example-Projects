@@ -8,5 +8,7 @@ public class Grades {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("PLease, enter your score: ");
+
+        x = sc.nextInt();
     }
 }
