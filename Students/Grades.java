@@ -12,6 +12,8 @@ public class Grades {
         x = sc.nextInt();
         if (x >= 0 && x <=40) {
             System.out.println("You Failed");
+        } else if (x > 40 && x < 70) {
+            System.out.println("You Passed");
         }
     }
 }
