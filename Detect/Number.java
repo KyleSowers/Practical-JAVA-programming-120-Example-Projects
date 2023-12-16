@@ -1,3 +1,4 @@
+//PRACTICE 33: PROGRAM TO DETECT NEGATIVE AND POSITIVE NUMBERS FROM A USER
 package Detect;
 
 import java.util.Scanner;
