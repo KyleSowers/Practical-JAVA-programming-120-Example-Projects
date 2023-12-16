@@ -1,3 +1,4 @@
+//PRACTICE 31: A PROGRAM  FOR CALCULATING FACTORIAL
 package Factorial;
 
 import java.util.Scanner;
