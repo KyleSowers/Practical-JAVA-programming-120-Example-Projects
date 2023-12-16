@@ -7,5 +7,6 @@ public class Grades {
         int x;
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("PLease, enter your score: ");
     }
 }
