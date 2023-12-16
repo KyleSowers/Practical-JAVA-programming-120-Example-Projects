@@ -14,6 +14,8 @@ public class Grades {
             System.out.println("You Failed");
         } else if (x > 40 && x < 70) {
             System.out.println("You Passed");
+        } else if (x >= 70) {
+            System.out.println("Excellent");
         }
     }
 }
