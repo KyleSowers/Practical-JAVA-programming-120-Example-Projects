@@ -10,5 +10,8 @@ public class Grades {
         System.out.println("PLease, enter your score: ");
 
         x = sc.nextInt();
+        if (x >= 0 && x <=40) {
+            System.out.println("You Failed");
+        }
     }
 }
