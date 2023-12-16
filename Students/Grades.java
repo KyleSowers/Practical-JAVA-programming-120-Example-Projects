@@ -16,6 +16,8 @@ public class Grades {
             System.out.println("You Passed");
         } else if (x >= 70) {
             System.out.println("Excellent");
+        } else if (x < 0) {
+            System.out.println("Only positive numbers are allowed");
         }
     }
 }
