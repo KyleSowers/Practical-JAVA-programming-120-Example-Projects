@@ -7,7 +7,10 @@ public class Sequence {
         System.out.print(w + " " + x);
 
         for (z = 2; z < count; z++) {
-            System.out.println(" " + y);
+            y = w + x;
+            System.out.print(" " + y);
+            w = x;
+            x = y;
         }
     }
 }
