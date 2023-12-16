@@ -7,5 +7,6 @@ public class Number {
         int x;
         System.out.println("Please insert any number: ");
         Scanner sc = new Scanner(System.in);
+        x =sc.nextInt();
     }
 }
