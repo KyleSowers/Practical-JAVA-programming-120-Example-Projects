@@ -8,5 +8,6 @@ public class Number {
         System.out.println("Please insert a number");
         Scanner sc = new Scanner(System.in);
         num1 = sc.nextInt();
+        x = num1;
     }
 }
