@@ -8,5 +8,6 @@ public class Number {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please insert numbers to check Palindrome: ");
         z = sc.nextInt();
+        w = z;
     }
 }
