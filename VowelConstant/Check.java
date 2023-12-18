@@ -7,5 +7,6 @@ public class Check {
     public static void main(String args[]) {
         char c = ' ';
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Please insert a character: ");
     }
 }
