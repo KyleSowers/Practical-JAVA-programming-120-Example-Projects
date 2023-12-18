@@ -15,5 +15,10 @@ public class Number {
             y = (y * 10) + x;
             z = z / 10;
         }
+        if (w == y) {
+            System.out.println("This number is a Palindrome");
+        } else {
+            System.out.println("This number is not a Palindrome");
+        }
     }
 }
