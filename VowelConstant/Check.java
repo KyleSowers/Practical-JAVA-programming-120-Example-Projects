@@ -1,3 +1,4 @@
+//PRACTICE 37: A PROGRAM TO CHECK VOWELS AND CONSONANTS
 package VowelConstant;
 
 import java.io.BufferedReader;
