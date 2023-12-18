@@ -11,6 +11,8 @@ public class Check {
         try {
             c = (char)br.read();
         } catch (Exception e) {
+            System.out.println(e);
+        }
             switch(c) {
                 case 'a':
                     System.out.println(c + " is a vowel");
@@ -36,16 +38,16 @@ public class Check {
                 case 'I':
                     System.out.println(c + " is a vowel");
                     break;
-                case "O":
+                case 'O':
                     System.out.println(c + " is a vowel");
                     break;
-                case "U":
+                case 'U':
                     System.out.println(c + " is a vowel");
                     break;
                 default:
                     System.out.println(c + " is a consonant");
                     break;
             }
-        }
+
     }
 }
