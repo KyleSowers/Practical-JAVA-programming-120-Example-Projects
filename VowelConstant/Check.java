@@ -8,5 +8,10 @@ public class Check {
         char c = ' ';
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Please insert a character: ");
+        try {
+            c = (char)br.read();
+        } catch (Exception e) {
+
+        }
     }
 }
