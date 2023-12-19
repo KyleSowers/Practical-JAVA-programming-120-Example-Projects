@@ -22,5 +22,9 @@ public class Array {
                 }
             }
         }
+        System.out.println("The result of this array in ascending order is: ");
+        for  (x = 0; x < 7; x++) {
+            System.out.print(" " + num2[x]);
+        }
     }
 }
