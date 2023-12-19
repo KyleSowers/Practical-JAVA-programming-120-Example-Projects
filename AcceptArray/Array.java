@@ -13,5 +13,8 @@ public class Array {
         for (int y = 0; y < 7; y++) {
             x[y] = Integer.parseInt(br.readLine());
         }
+        for  (int y = 0; y < x.length; y++) {
+            System.out.print(" " + x[y]);
+        }
     }
 }
