@@ -10,5 +10,8 @@ public class Array {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Please, insert 7 string elements: ");
+        for (int x = 0; x < 7; x++) {
+            st[x] = br.readLine();
+        }
     }
 }
