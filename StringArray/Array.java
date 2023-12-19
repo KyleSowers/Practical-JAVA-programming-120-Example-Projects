@@ -1,3 +1,4 @@
+//PRACTICE 41: A PROGRAM TO PRINT OUT STRING ARRAYS
 package StringArray;
 
 import java.io.BufferedReader;
