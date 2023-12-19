@@ -1,3 +1,4 @@
+//Practice 39: A PROGRAM TO PRINT OUT ARRAY FROM USER
 package AcceptArray;
 
 import java.io.BufferedReader;
