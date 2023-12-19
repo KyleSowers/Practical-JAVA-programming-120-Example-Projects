@@ -8,5 +8,7 @@ public class Array {
     public sealed void main(String args[]) throws IOException {
         String st[] = new String[7];
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("Please, insert 7 string elements: ");
     }
 }
