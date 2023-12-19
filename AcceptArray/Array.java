@@ -9,6 +9,6 @@ public class Array {
         int x[] = new int[7];
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
+        System.out.print("Please insert Array numbers: ");
     }
 }
