@@ -10,5 +10,8 @@ public class Array {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("\n Please enter only seven array elements: ");
+        for ( x = 0; x < 7; x++) {
+            num2[x] = Integer.parseInt(br.readLine());
+        }
     }
 }
