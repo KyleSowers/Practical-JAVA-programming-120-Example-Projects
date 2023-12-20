@@ -8,6 +8,7 @@ public class Arrays {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please insert any element of your choice: ");
 
+        x = sc.nextInt();
 
     }
 }
