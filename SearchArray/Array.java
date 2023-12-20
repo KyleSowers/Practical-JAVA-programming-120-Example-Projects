@@ -1,3 +1,4 @@
+//PRACTICE 43: A PROGRAM TO SEARCH AN ELEMENT IN AN ARRAY
 package SearchArray;
 
 import java.util.Arrays;
