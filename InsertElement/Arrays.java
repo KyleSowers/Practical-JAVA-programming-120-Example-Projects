@@ -10,5 +10,6 @@ public class Arrays {
 
         x = sc.nextInt();
         int num1[] = new int[x-1];
+        System.out.println("Please insert arrays of elements now: ");
     }
 }
