@@ -11,6 +11,13 @@ public class Array {
         printArray("The sorted Array is: ", x);
     }
 
-    private static void printArray(String s, int[] x) {
+    private static void printArray(String string, int[] x) {
+        for  (int y = 0; y < x.length; y++) {
+            if (y != 0) {
+                System.out.print(",");
+            }
+            System.out.print(x[y]);
+        }
+        System.out.println();
     }
 }
