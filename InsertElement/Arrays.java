@@ -9,6 +9,6 @@ public class Arrays {
         System.out.println("Please insert any element of your choice: ");
 
         x = sc.nextInt();
-
+        int num1[] = new int[x-1];
     }
 }
