@@ -11,5 +11,8 @@ public class Arrays {
         x = sc.nextInt();
         int num1[] = new int[x-1];
         System.out.println("Please insert arrays of elements now: ");
+        for (int w = 0; w < x; w++) {
+            num1[w] = sc.nextInt();
+        }
     }
 }
