@@ -16,5 +16,6 @@ public class Arrays {
         }
         System.out.println("Choose a preferred position for your element: ");
         y = sc.nextInt();
+        System.out.print("Insert your preferred element: ");
     }
 }
