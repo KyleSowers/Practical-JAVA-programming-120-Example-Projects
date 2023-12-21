@@ -1,3 +1,4 @@
+//PRACTICE 46: A PROGRAM TO FIND THE MIN AND MAX ELEMENT IN ARRAY
 package MinMax;
 
 import java.util.Arrays;
