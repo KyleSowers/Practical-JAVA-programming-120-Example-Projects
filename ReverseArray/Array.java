@@ -16,5 +16,6 @@ public class Array {
         System.out.println("Before reversal: " + al);
 
         Collections.reverse(al);
+        System.out.println("After reversal: " + al);
     }
 }
