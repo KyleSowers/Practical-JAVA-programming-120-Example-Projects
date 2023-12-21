@@ -13,6 +13,6 @@ public class Array {
         ls.addAll(Arrays.asList(y));
 
         Object[] z = ls.toArray();
-
+        System.out.println(Arrays.toString(z));
     }
 }
