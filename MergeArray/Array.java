@@ -1,15 +1,18 @@
 //PRACTICE 47: A PROGRAM TO MERGE TWO ARRAYS
 package MergeArray;
 
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.*;
 
 public class Array {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         String x[] = {"H", "E", "L", "L", "O"};
         String y[] = {"W", "O", "R", "L", "D"};
 
-        List ls = new ArrayList(Arrays.aslist(x));
+        List ls = new ArrayList(Arrays.asList(x));
         ls.addAll(Arrays.asList(y));
+
+        Object[] z = ls.toArray();
+
     }
 }
