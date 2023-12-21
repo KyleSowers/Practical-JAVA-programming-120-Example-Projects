@@ -2,4 +2,8 @@
 package MergeSort;
 
 public class Array {
+
+    public static void sort(int[] x, int lower, int upper) {
+
+    }
 }
