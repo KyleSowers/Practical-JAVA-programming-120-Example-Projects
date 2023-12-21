@@ -14,5 +14,6 @@ public class Array {
         sort(x, num2, upper);
 
         int[] num3 = new int[num1];
+        int y = lower, z = num2
     }
 }
