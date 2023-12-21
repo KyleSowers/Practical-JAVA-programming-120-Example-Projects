@@ -14,5 +14,6 @@ public class Arrays {
         for (int w = 0; w < x; w++) {
             num1[w] = sc.nextInt();
         }
+        System.out.println("Choose a preferred position for your element: ");
     }
 }
