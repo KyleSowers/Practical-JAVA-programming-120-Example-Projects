@@ -9,5 +9,10 @@ public class Array {
             return;
         }
         int num2 = lower + num1/2;
+
+        sort(x, lower, num2);
+        sort(x, num2, upper);
+
+        int[] num3 = new int[num1];
     }
 }
