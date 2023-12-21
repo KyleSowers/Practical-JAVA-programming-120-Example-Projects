@@ -23,15 +23,20 @@ public class Arrays {
         }
         //print request for position of a new element from user
         System.out.println("Choose a preferred position for your new element: ");
-
+        //read and store input value into attribute y
         y = sc.nextInt();
+        //print request element value form user
         System.out.print("Insert your preferred element value: ");
+        //read and store input value into attribute z
         z = sc.nextInt();
+        //loop through array adding new element to desired position
         for (int  w = (x - 1); w >= (y - 1); w--) {
             num1[w + 1] = num1[w];
         }
         num1[y - 1] = z;
+        //print result
         System.out.print("The result after inserting element is: ");
+        //read new array for printing result
         for (int w = 0; w < x; w++) {
             System.out.print(num1[w] + ",");
         }
