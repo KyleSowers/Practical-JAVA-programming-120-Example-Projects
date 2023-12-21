@@ -1,6 +1,8 @@
 package ReverseArray;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Array {
     public static void main(String[] args) {
@@ -12,5 +14,7 @@ public class Array {
         al.add("E");
 
         System.out.println("Before reversal: " + al);
+
+        Collections.reverse(al);
     }
 }
