@@ -15,5 +15,6 @@ public class Arrays {
             num1[w] = sc.nextInt();
         }
         System.out.println("Choose a preferred position for your element: ");
+        y = sc.nextInt();
     }
 }
