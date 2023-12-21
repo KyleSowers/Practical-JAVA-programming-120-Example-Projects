@@ -8,5 +8,6 @@ public class Array {
         if (num1 <= 1) {
             return;
         }
+        int num2 = lower + num1/2;
     }
 }
