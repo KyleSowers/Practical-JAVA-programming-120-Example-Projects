@@ -10,5 +10,7 @@ public class Array {
         al.add("I");
         al.add("K");
         al.add("E");
+
+        System.out.println("Before reversal: " + al);
     }
 }
