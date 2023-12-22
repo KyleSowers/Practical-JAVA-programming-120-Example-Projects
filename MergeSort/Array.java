@@ -44,5 +44,10 @@ public class Array {
             xyz[y] = sc.nextInt();
         }
         sort(xyz, 0, num1);
+        System.out.println("Result of array after sorting: ");
+        for (y = 0; y < num1; y++) {
+            System.out.print(xyz[y] + " ");
+        }
+        System.out.println();
     }
 }
