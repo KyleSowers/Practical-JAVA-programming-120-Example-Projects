@@ -14,6 +14,8 @@ class B extends A {
 
 public class AbstractDemo {
     public static void main(String args[]) {
-
+        B b = new B();
+        b.Method1();
+        b.Method2();
     }
 }
