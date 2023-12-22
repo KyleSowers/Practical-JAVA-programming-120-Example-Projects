@@ -43,5 +43,6 @@ public class Array {
         for (y = 0; y < num1; y++) {
             xyz[y] = sc.nextInt();
         }
+        sort(xyz, 0, num1);
     }
 }
