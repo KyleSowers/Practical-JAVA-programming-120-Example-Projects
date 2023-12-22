@@ -39,5 +39,6 @@ public class Array {
         System.out.println("Please choose number of array elements: ");
         num1 = sc.nextInt();
         int xyz[] = new int[num1];
+        System.out.println("Please insert " + num1 + " numbers of elements: ");
     }
 }
