@@ -5,3 +5,7 @@ abstract class A {
         System.out.println("We have a concrete method here.");
     }
 }
+
+class B extends A {
+
+}
