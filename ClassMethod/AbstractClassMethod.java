@@ -19,7 +19,9 @@ class Rectangle extends calculate {
 }
 
 class Triangle extends calculate {
-
+    Triangle(double x, double y) {
+        super (x, y);
+    }
 }
 
 public class AbstractClassMethod {
