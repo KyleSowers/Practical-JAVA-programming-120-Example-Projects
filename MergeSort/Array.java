@@ -38,16 +38,25 @@ public class Array {
     }
 
     public static void main(String args[]) {
+        //create new scanner for class
         Scanner sc = new Scanner(System.in);
+        //declare new attributes
         int num1, y;
+        //request array element length
         System.out.println("Please choose number of array elements: ");
+        //store input into attribute
         num1 = sc.nextInt();
+        //create new array with length value associated
         int xyz[] = new int[num1];
+        //request values for elements of new array
         System.out.println("Please insert " + num1 + " numbers of elements: ");
+        //read inputs and add to array
         for (y = 0; y < num1; y++) {
             xyz[y] = sc.nextInt();
         }
+        //call sort() to sort array values ascending
         sort(xyz, 0, num1);
+        //print results
         System.out.println("Result of array after sorting: ");
         for (y = 0; y < num1; y++) {
             System.out.print(xyz[y] + " ");
