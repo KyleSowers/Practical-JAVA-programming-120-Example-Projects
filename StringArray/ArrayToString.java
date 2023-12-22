@@ -1,3 +1,4 @@
+//PRACTICE 51: A PROGRAM FOR ARRAY TO STRING
 package StringArray;
 
 import java.util.*;
