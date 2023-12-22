@@ -26,5 +26,8 @@ public class Array {
                 num3[w] = x[y++];
             }
         }
+        for  (int w = 0; w < num1; w++) {
+            x[lower + w] = num3[w];
+        }
     }
 }
