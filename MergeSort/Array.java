@@ -37,5 +37,7 @@ public class Array {
         Scanner sc = new Scanner(System.in);
         int num1, y;
         System.out.println("Please choose number of array elements: ");
+        num1 = sc.nextInt();
+        int xyz[] = new int[num1];
     }
 }
