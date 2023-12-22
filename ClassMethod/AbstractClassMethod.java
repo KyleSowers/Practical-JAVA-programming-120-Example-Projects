@@ -35,5 +35,8 @@ public class AbstractClassMethod {
         calculate cal;
         cal = tr;
         System.out.println("The area of Triangle is: " + cal.area());
+
+        cal = rt;
+        System.out.println("The area of a Rectangle is: " + cal.area());
     }
 }
