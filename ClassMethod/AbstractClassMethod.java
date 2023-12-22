@@ -22,6 +22,9 @@ class Triangle extends calculate {
     Triangle(double x, double y) {
         super (x, y);
     }
+    double area() {
+        return base * height / 2;
+    }
 }
 
 public class AbstractClassMethod {
