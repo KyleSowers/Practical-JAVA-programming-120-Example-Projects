@@ -1,3 +1,4 @@
+//PRACTICE 49: A PROGRAM TO USE ABSTRACT CLASS
 package AbsClass;
 
 abstract class A {
