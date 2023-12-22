@@ -29,6 +29,7 @@ class Triangle extends calculate {
 
 public class AbstractClassMethod {
     public static void main(String args[]) {
-
+        Triangle tr = new Triangle(10, 45);
+        Rectangle rt = new Rectangle(15, 25);
     }
 }
