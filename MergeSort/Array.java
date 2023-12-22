@@ -14,6 +14,17 @@ public class Array {
         sort(x, num2, upper);
 
         int[] num3 = new int[num1];
-        int y = lower, z = num2
+        int y = lower, z = num2;
+        for (int w = 0; w < num1; w++) {
+            if (y == num2) {
+                num3[w] = x[z++];
+            } else if (z == upper) {
+                num3[w] = x[y++];
+            } else if (x[z] < x[y]) {
+                num3[w] = x[z++];
+            } else {
+                num3[w] = x[y++];
+            }
+        }
     }
 }
