@@ -10,7 +10,9 @@ abstract class calculate {
 }
 
 class Rectangle extends calculate {
-
+    Rectangle(double x, double y) {
+        super(x, y);
+    }
 }
 
 public class AbstractClassMethod {
