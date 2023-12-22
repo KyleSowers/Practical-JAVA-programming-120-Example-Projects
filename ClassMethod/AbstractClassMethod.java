@@ -6,6 +6,8 @@ abstract class calculate {
         base = x;
         height = y;
     }
+
+    abstract  double area();
 }
 
 public class AbstractClassMethod {
