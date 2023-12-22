@@ -18,6 +18,10 @@ class Rectangle extends calculate {
     }
 }
 
+class Triangle extends calculate {
+
+}
+
 public class AbstractClassMethod {
     public static void main(String args[]) {
 
