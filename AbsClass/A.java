@@ -7,5 +7,7 @@ abstract class A {
 }
 
 class B extends A {
-
+    void Method1() {
+        System.out.println("This is a method of class A");
+    }
 }
