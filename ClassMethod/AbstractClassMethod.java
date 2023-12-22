@@ -6,8 +6,11 @@ abstract class calculate {
         base = x;
         height = y;
     }
-
     abstract  double area();
+}
+
+class Rectangle extends calculate {
+
 }
 
 public class AbstractClassMethod {
