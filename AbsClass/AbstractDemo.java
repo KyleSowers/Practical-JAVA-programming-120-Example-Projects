@@ -11,3 +11,9 @@ class B extends A {
         System.out.println("This is a method of class A");
     }
 }
+
+public class AbstractDemo {
+    public static void main(String args[]) {
+
+    }
+}
