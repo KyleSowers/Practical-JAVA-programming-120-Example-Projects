@@ -30,4 +30,8 @@ public class Array {
             x[lower + w] = num3[w];
         }
     }
+
+    public static void main(String args[]) {
+
+    }
 }
