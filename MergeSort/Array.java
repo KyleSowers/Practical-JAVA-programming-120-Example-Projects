@@ -1,6 +1,8 @@
 //PRACTICE 48: A PROGRAM TO SORT A MERGED ARRAY
 package MergeSort;
 
+import java.util.Scanner;
+
 public class Array {
 
     public static void sort(int[] x, int lower, int upper) {
@@ -32,6 +34,7 @@ public class Array {
     }
 
     public static void main(String args[]) {
-
+        Scanner sc = new Scanner(System.in);
+        int num1, y;
     }
 }
