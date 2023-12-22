@@ -36,5 +36,6 @@ public class Array {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int num1, y;
+        System.out.println("Please choose number of array elements: ");
     }
 }
