@@ -40,5 +40,8 @@ public class Array {
         num1 = sc.nextInt();
         int xyz[] = new int[num1];
         System.out.println("Please insert " + num1 + " numbers of elements: ");
+        for (y = 0; y < num1; y++) {
+            xyz[y] = sc.nextInt();
+        }
     }
 }
