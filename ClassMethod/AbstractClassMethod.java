@@ -31,5 +31,9 @@ public class AbstractClassMethod {
     public static void main(String args[]) {
         Triangle tr = new Triangle(10, 45);
         Rectangle rt = new Rectangle(15, 25);
+
+        calculate cal;
+        cal = tr;
+        System.out.println("The area of Triangle is: " + cal.area());
     }
 }
