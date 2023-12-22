@@ -13,6 +13,9 @@ class Rectangle extends calculate {
     Rectangle(double x, double y) {
         super(x, y);
     }
+    double area() {
+        return base * height;
+    }
 }
 
 public class AbstractClassMethod {
