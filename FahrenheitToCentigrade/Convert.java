@@ -11,5 +11,7 @@ public class Convert {
 
         System.out.println("Please insert value in Fahrenheit: ");
         radian = sc.nextFloat();
+
+        degree = (radian - 32) / 1.8;
     }
 }
