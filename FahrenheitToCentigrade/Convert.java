@@ -13,5 +13,7 @@ public class Convert {
         radian = sc.nextFloat();
 
         degree = (radian - 32) / 1.8;
+
+        System.out.println("Celsius equivalent of: " + radian + " Radian is " + degree + " Degree");
     }
 }
