@@ -11,6 +11,6 @@ public class Array {
             sum = sum + num1[y];
         }
         float average = sum/num1.length;
-
+        System.out.println("The result of the array average is: " + average);
     }
 }
