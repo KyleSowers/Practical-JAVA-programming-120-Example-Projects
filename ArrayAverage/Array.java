@@ -10,5 +10,7 @@ public class Array {
         for  (int  y = 0; y < num1.length; y++) {
             sum = sum + num1[y];
         }
+        float average = sum/num1.length;
+
     }
 }
