@@ -8,5 +8,6 @@ public class Loop {
         for (x = 10; x >= 1; x--) {
             System.out.println("Value of x is: " + x);
         }
+        System.out.println("\n");
     }
 }
