@@ -9,5 +9,8 @@ public class Loop {
             System.out.println("Value of x is: " + x);
         }
         System.out.println("\n");
+        for  (y = 1; y <= 10; y++) {
+            System.out.println("The value of y is: " + y);
+        }
     }
 }
