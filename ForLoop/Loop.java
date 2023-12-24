@@ -2,4 +2,7 @@
 package ForLoop;
 
 public class Loop {
+    public static void main(String[] args) {
+        int x, y;
+    }
 }
