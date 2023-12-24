@@ -8,5 +8,7 @@ public class Convert {
         double degree;
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please insert value in Fahrenheit: ");
     }
 }
