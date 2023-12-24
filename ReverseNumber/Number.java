@@ -4,5 +4,7 @@ package ReverseNumber;
 public class Number {
     public static void main(String[] args) {
         int num1 = 0, num2, reversenum1 = 0;
+
+        System.out.println("Please insert some numbers: ");
     }
 }
