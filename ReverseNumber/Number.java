@@ -9,5 +9,7 @@ public class Number {
 
         System.out.println("Please insert some numbers: ");
         Scanner sc = new Scanner(System.in);
+
+        num2 = num1 = sc.nextInt();
     }
 }
