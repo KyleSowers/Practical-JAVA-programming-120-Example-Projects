@@ -12,5 +12,6 @@ public class Convert {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please insert values in Celsius");
+        degreeF = sc.nextFloat();
     }
 }
