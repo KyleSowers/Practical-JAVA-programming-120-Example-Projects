@@ -16,7 +16,7 @@ public class Prime {
         //nested for loop with both levels of if conditionals to determine and print out print numbers
         for (x = 1; x <= num2; x++) {
             int primecount = 0;
-            for (x = 1; num1 >= 1; num1--) {
+            for (num1 = x; num1 >= 1; num1--) {
                 if (x % num1 == 0) {
                     primecount = primecount + 1;
                 }
