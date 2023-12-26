@@ -1,3 +1,4 @@
+//PRACTICE 57: A PROGRAM TO CONVERT FROM FAHRENHEIT TO CENTIGRADE
 package FahrenheitToCentigrade;
 
 import java.util.Scanner;
@@ -13,7 +14,7 @@ public class Convert {
         System.out.println("Please insert value in Fahrenheit: ");
         //store value
         radian = sc.nextFloat();
-        //arithmatic for coversion
+        //arithmatic for conversion
         degree = (radian - 32) / 1.8;
         //print result
         System.out.println("Celsius equivalent of: " + radian + " Radian is " + degree + " Degree");
