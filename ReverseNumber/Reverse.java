@@ -5,6 +5,8 @@ public class Reverse {
     public static void main(String[] agrs) {
 
         int num1 = 0, num2;
+
+        System.out.println("Please insert different numbers");
     }
 
 }
