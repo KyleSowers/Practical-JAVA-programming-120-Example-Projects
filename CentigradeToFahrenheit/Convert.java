@@ -4,5 +4,7 @@ package CentigradeToFahrenheit;
 public class Convert {
     public static void main(String[] args) {
 
+        float degreeF;
+        double degreeC;
     }
 }
