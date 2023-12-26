@@ -1,5 +1,7 @@
 package PrimeNumbers;
 
+import java.util.Scanner;
+
 public class Prime {
     public static void main(String[] args) {
 
@@ -7,5 +9,7 @@ public class Prime {
         String pnum = "";
 
         System.out.println("Insert a number to print its prime numbers: ");
+        Scanner sc = new Scanner(System.in);
+
     }
 }
