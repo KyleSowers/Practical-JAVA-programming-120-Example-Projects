@@ -7,6 +7,7 @@ public class Reverse {
         int num1 = 0, num2;
 
         System.out.println("Please insert different numbers");
+        Scanner sc = new Scanner(System.in);
     }
 
 }
