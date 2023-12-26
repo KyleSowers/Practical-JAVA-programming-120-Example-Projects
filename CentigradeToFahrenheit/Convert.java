@@ -15,5 +15,7 @@ public class Convert {
         degreeF = sc.nextFloat();
 
         degreeC = (1.8 * degreeF) + 32;
+
+        System.out.println("Celsius equivalent of " + degreeF + " is: " + degreeC);
     }
 }
