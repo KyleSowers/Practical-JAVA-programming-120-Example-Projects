@@ -4,7 +4,7 @@ import java.util.*;
 public class Reverse {
     public static void main(String[] agrs) {
 
-        int num1 = 0, num2;
+        int num1 = 0, num2, reversenum1 = 0;
 
         System.out.println("Please insert different numbers");
         Scanner sc = new Scanner(System.in);
