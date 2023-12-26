@@ -5,5 +5,7 @@ public class Prime {
 
         int x = 0, num1 = 0;
         String pnum = "";
+
+        System.out.println("Insert a number to print its prime numbers: ");
     }
 }
