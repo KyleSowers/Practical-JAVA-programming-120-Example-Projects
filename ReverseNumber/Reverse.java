@@ -8,6 +8,7 @@ public class Reverse {
 
         System.out.println("Please insert different numbers");
         Scanner sc = new Scanner(System.in);
+        num2 = num1 - sc.nextInt();
     }
 
 }
