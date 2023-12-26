@@ -15,6 +15,7 @@ public class Reverse {
             reversenum1 = reversenum1 + num1 % 10;
             num1 = num1 / 10;
         }
+        System.out.println("The reversed result of " + num2 + " is: " + reversenum1);
     }
 
 }
