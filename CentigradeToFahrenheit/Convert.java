@@ -13,5 +13,7 @@ public class Convert {
 
         System.out.println("Please insert values in Celsius");
         degreeF = sc.nextFloat();
+
+        degreeC = (1.8 * degreeF) + 32;
     }
 }
