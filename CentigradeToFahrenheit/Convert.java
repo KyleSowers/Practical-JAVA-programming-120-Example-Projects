@@ -10,5 +10,7 @@ public class Convert {
         double degreeC;
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please insert values in Celsius");
     }
 }
