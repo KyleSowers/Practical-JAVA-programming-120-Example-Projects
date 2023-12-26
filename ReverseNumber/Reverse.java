@@ -2,4 +2,6 @@
 package ReverseNumber;
 
 public class Reverse {
+
+    int num1 = 0, num2, reversenum1 = 0;
 }
