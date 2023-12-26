@@ -11,5 +11,6 @@ public class Prime {
         System.out.println("Insert a number to print its prime numbers: ");
         Scanner sc = new Scanner(System.in);
 
+        int num2 = sc.nextInt();
     }
 }
