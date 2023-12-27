@@ -11,6 +11,6 @@ public class DetectPrimeNumbers {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, insert a number: ");
-
+        num1 = sc.nextInt();
     }
 }
