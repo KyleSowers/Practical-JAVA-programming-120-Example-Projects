@@ -17,5 +17,8 @@ public class Swap {
         int swapv = x;
         x = y;
         y = swapv;
+
+        System.out.println("\n");
+
     }
 }
