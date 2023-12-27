@@ -1,3 +1,4 @@
+//PRACTICE 65: A PROGRAM TO DETECT PRIME NUMBERS ONLY
 package PrimeNumbersOnly;
 
 public class DetectPrimeNumbers {
