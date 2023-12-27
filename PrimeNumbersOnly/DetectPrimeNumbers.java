@@ -12,5 +12,17 @@ public class DetectPrimeNumbers {
 
         System.out.println("Please, insert a number: ");
         num1 = sc.nextInt();
+
+        for (x = 2; x < num1; x++) {
+            if(num1 % x == 0) {
+                count++;
+                break;
+            }
+        }
+        if (count == 0) {
+            System.out.println(num1 + " is a Prime Number");
+        } else {
+            System.out.println(num1 + " is not a Prime Number");
+        }
     }
 }
