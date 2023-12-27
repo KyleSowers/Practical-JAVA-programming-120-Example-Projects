@@ -14,6 +14,8 @@ public class Swap {
         swapvalues(x, y);
     }
     public static void swapvalues(int x, int y) {
-
+        int swapv = x;
+        x = y;
+        y = swapv;
     }
 }
