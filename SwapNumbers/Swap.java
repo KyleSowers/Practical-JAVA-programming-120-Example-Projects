@@ -10,5 +10,7 @@ public class Swap {
         System.out.println("Values before swapping");
         System.out.println("Value of x is: " + x);
         System.out.println("Value of y is: " + y);
+
+        swapvalues(x, y);
     }
 }
