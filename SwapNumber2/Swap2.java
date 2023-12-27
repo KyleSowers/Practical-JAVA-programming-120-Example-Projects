@@ -9,5 +9,8 @@ public class Swap2 {
         System.out.println("Value of x is: " + x);
         System.out.println("Value of y is: " + y);
 
+        x = x + y;
+        y = x - y;
+        x = x - y;
     }
 }
