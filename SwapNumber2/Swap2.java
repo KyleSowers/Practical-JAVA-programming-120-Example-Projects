@@ -15,5 +15,8 @@ public class Swap2 {
 
         System.out.println("\n");
 
+        System.out.println("Values after swapping");
+        System.out.println("Value of x is: " + x);
+        System.out.println("Value of y is: " + y);
     }
 }
