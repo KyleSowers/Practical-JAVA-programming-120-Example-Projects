@@ -2,4 +2,9 @@
 package SwapNumbers;
 
 public class Swap {
+    public static void  main(String[] args) {
+
+        int x = 200;
+        int y = 500;
+    }
 }
