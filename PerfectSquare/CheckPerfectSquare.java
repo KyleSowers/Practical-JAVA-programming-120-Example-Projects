@@ -10,5 +10,7 @@ public class CheckPerfectSquare {
 
         System.out.println("Please, insert a number: ");
         int x = sc.nextInt();
+
+        int sqrt = (int)Math.sqrt(x);
     }
 }
