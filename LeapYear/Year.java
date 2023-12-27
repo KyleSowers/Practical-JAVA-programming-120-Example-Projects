@@ -8,5 +8,7 @@ public class Year {
 
         System.out.println("Please insert a preferred year: ");
         Scanner sc = new Scanner(System.in);
+
+        int yr = sc.nextInt();
     }
 }
