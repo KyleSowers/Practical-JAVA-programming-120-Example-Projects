@@ -12,5 +12,10 @@ public class CheckPerfectSquare {
         int x = sc.nextInt();
 
         int sqrt = (int)Math.sqrt(x);
+        if (sqrt * sqrt == x) {
+            System.out.println(x + " is a Perfect Square");
+        } else {
+            System.out.println(x + " is not a Perfect Square");
+        }
     }
 }
