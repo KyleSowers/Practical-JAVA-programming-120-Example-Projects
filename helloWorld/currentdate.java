@@ -13,5 +13,9 @@ public class currentdate {
         SimpleDateFormat sdf3 = new SimpleDateFormat("hh:mm:ss a");
         SimpleDateFormat sdf4 = new SimpleDateFormat("MMM");
 
+        System.out.println("Current Date is: " + sdf1.format(dTime));
+        System.out.println("Current Day is: " + sdf2.format(dTime));
+        System.out.println("Current Time is: " + sdf3.format(dTime));
+        System.out.println("Current Month is: " + sdf4.format(dTime));
     }
 }
