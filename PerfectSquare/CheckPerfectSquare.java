@@ -9,5 +9,6 @@ public class CheckPerfectSquare {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, insert a number: ");
+        int x = sc.nextInt();
     }
 }
