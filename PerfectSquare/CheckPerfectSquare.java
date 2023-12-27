@@ -2,4 +2,7 @@
 package PerfectSquare;
 
 public class CheckPerfectSquare {
+    public static void main(String[] args) {
+
+    }
 }
