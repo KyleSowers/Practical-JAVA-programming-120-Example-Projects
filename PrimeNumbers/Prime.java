@@ -1,3 +1,4 @@
+//PRACTICE 60: A PROGRAM TO PRINT OUT PRIME NUMBERS
 package PrimeNumbers;
 
 import java.util.Scanner;
