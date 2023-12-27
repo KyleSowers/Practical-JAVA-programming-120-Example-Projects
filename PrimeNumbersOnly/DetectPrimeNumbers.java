@@ -9,5 +9,8 @@ public class DetectPrimeNumbers {
         int num1, x, count = 0;
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please, insert a number: ");
+
     }
 }
