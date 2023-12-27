@@ -12,5 +12,8 @@ public class Swap2 {
         x = x + y;
         y = x - y;
         x = x - y;
+
+        System.out.println("\n");
+
     }
 }
