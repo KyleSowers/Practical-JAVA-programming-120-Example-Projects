@@ -13,7 +13,8 @@ public class Array {
                 max2 = x;
             }
         }
-
+        System.out.println("The first Maximum Number is " + max1);
+        System.out.println("The second Maximum Number is " + max2);
     }
 
     public static void  main(String[] args) {
