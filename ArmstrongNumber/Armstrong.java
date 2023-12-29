@@ -11,5 +11,6 @@ public class Armstrong {
         System.out.println("Please insert only positive numbers: ");
 
         x = sc.nextInt();
+        y = x;
     }
 }
