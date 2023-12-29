@@ -17,6 +17,8 @@ public class ConvertString {
         int add = num1 + num2;
         System.out.println("Integer result is: " + add);
 
+        String Str3 = "301.92";
+        Double dob = 45.78;
 
     }
 }
