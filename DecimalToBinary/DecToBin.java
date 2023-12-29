@@ -19,5 +19,7 @@ public class DecToBin {
         DecToBin dtb = new DecToBin();
         System.out.println("Binary equivalent of 88 is: ");
         dtb.Convert(88);
+        System.out.println("\n Binary equivalent of 55 is: ");
+        dtb.Convert(55);
     }
 }
