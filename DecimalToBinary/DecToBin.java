@@ -1,3 +1,4 @@
+//PRACTICE 67: PROGRAM TO CONVERT FROM DECIMAL TO BINARY
 package DecimalToBinary;
 
 public class DecToBin {
