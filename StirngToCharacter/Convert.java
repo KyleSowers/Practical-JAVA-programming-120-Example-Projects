@@ -8,5 +8,7 @@ public class Convert {
         char[] StrArray;
 
         StrArray = helloStr.toCharArray();
+
+        System.out.println("The result of the character array is below: ");
     }
 }
