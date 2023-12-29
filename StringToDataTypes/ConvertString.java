@@ -9,5 +9,8 @@ public class ConvertString {
 
         boolean bol = Boolean.parseBoolean(Str1);
         System.out.println("The Boolean result is: " + bol);
+
+        String Str2 = "500";
+        int num1 = 300;
     }
 }
