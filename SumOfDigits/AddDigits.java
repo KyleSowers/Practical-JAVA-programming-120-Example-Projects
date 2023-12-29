@@ -17,5 +17,6 @@ public class AddDigits {
             add += sum;
             addall /= 10;
         }
+        System.out.println("The result of sum of " + num1 + " is " + add);
     }
 }
