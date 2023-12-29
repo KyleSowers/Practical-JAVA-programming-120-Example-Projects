@@ -13,5 +13,16 @@ public class Armstrong {
 
         x = sc.nextInt();
         y = x;
+
+        while (y != 0) {
+            ams = y % 10;
+            z = z + ams * ams * ams;
+            y = y / 10;
+        }
+        if (z == x) {
+            System.out.println(x + " is an Armstrong Number");
+        } else {
+            System.out.println(x + " is not an Armstrong Number");
+        }
     }
 }
