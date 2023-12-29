@@ -10,5 +10,8 @@ public class Convert {
         StrArray = helloStr.toCharArray();
 
         System.out.println("The result of the character array is below: ");
+        for (int x = 0; x < StrArray.length; x++) {
+            System.out.print(StrArray[x]);
+        }
     }
 }
