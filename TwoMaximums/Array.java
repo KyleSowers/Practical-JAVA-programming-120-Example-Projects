@@ -5,6 +5,15 @@ public class Array {
     public void MaximumNums(int[] num1) {
         int max1 = 0, max2 = 0;
 
+        for (int x: num1) {
+            if (max1 < x) {
+                max2 =max1;
+                max1 = x;
+            } else if (max2 < x) {
+                max2 = x;
+            }
+        }
+
     }
 
     public static void  main(String[] args) {
