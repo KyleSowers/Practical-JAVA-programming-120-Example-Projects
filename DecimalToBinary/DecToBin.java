@@ -21,5 +21,7 @@ public class DecToBin {
         dtb.Convert(88);
         System.out.println("\n Binary equivalent of 55 is: ");
         dtb.Convert(55);
+        System.out.println("\n Binary equivalent 0f 10 is: ");
+        dtb.Convert(10);
     }
 }
