@@ -6,5 +6,7 @@ public class Convert {
         String helloStr = "This is the original String object";
 
         char[] StrArray;
+
+        StrArray = helloStr.toCharArray();
     }
 }
