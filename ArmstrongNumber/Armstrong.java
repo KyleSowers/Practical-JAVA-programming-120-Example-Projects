@@ -9,5 +9,7 @@ public class Armstrong {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please insert only positive numbers: ");
+
+        x = sc.nextInt();
     }
 }
