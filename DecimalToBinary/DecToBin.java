@@ -16,6 +16,6 @@ public class DecToBin {
     }
 
     public static void  main(String[] args) {
-
+        DecToBin dtb = new DecToBin();
     }
 }
