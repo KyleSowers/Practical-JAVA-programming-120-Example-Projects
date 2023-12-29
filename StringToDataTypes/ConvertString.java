@@ -20,5 +20,8 @@ public class ConvertString {
         String Str3 = "301.92";
         Double dob = 45.78;
 
+        Double dob1 = Double.parseDouble(Str3);
+        Double adddob = dob + dob1;
+        System.out.println("Double result is: " + adddob);
     }
 }
