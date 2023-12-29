@@ -1,3 +1,4 @@
+//PRACTICE 72: A PROGRAM TO CHECK ARMSTRONG NUMBERS
 package ArmstrongNumber;
 
 import java.util.Scanner;
