@@ -6,5 +6,8 @@ public class ConvertString {
     public static void main(String[] args) {
 
         String Str1 = "False";
+
+        boolean bol = Boolean.parseBoolean(Str1);
+        System.out.println("The Boolean result is: " + bol);
     }
 }
