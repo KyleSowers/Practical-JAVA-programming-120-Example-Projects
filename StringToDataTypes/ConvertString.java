@@ -14,6 +14,9 @@ public class ConvertString {
         int num1 = 300;
 
         int num2 = Integer.parseInt(Str2);
-        int add = num1 = 300;
+        int add = num1 + num2;
+        System.out.println("Integer result is: " + add);
+
+
     }
 }
