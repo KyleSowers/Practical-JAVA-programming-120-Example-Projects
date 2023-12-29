@@ -2,7 +2,10 @@
 package TwoMaximums;
 
 public class Array {
-    int max1 = 0, max2 = 0;
+    public void MaximumNums(int[] num1) {
+        int max1 = 0, max2 = 0;
+
+    }
 
     public static void  main(String[] args) {
         int num2[] = {4300, 78, 9, 34, 100, 5000, 432, 678, 12, 7, 3, 0, 654};
