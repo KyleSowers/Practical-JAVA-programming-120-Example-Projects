@@ -12,5 +12,8 @@ public class ConvertString {
 
         String Str2 = "500";
         int num1 = 300;
+
+        int num2 = Integer.parseInt(Str2);
+        int add = num1 = 300;
     }
 }
