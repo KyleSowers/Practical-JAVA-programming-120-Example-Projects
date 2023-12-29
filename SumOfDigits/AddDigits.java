@@ -1,3 +1,4 @@
+//PRACTICE 68: SUM OF DIGITS FROM USER
 package SumOfDigits;
 
 import java.util.Scanner;
