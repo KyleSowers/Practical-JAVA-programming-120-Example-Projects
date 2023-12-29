@@ -12,5 +12,10 @@ public class AddDigits {
 
         int add = 0;
         int addall = num1;
+        while (addall != 0) {
+            int sum = addall % 10;
+            add += sum;
+            addall /= 10;
+        }
     }
 }
