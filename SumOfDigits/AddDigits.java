@@ -11,5 +11,6 @@ public class AddDigits {
         int num1 = sc.nextInt();
 
         int add = 0;
+        int addall = num1;
     }
 }
