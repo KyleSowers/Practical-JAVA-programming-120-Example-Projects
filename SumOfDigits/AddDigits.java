@@ -8,5 +8,8 @@ public class AddDigits {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Please insert some numbers: ");
+        int num1 = sc.nextInt();
+
+        int add = 0;
     }
 }
