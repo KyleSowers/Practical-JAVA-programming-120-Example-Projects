@@ -1,3 +1,4 @@
+//PRACTICE 73: A PROGRAM TO CALCULATE ARITHMATIC MEAN
 package ArithmaticMean;
 
 import java.util.Scanner;
