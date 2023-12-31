@@ -9,5 +9,6 @@ public class Mean {
         int num1[] = new int[50];
 
         Scanner sc = new Scanner(System.in);
+        x = sc.nextInt();
     }
 }
