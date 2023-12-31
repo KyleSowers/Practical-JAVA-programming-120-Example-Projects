@@ -14,6 +14,10 @@ public class Mean {
         x = sc.nextInt();
 
         System.out.println("Please enter only " + x + " numbers");
+        for (y = 0; y < x; y++) {
+            num1[y] = sc.nextInt();
+            add = add + num1[y];
+        }
 
     }
 }
