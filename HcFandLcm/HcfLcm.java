@@ -11,5 +11,7 @@ public class HcfLcm {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, insert two numbers ");
+        a = sc.nextInt();
+        b = sc.nextInt();
     }
 }
