@@ -16,5 +16,11 @@ public class HcfLcm {
 
         c = a;
         d = b;
+
+        while (d != 0) {
+            e = d;
+            d = c % d;
+            c = e;
+        }
     }
 }
