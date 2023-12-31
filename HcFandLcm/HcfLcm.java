@@ -24,5 +24,8 @@ public class HcfLcm {
         }
         h = c;
         l = (a * b) / h;
+
+        System.out.println("The result of HCF is: " + h);
+        System.out.println("The result of LCM is: " + l);
     }
 }
