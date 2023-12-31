@@ -13,5 +13,7 @@ public class Mean {
         System.out.println("Please choose a number:");
         x = sc.nextInt();
 
+        System.out.println("Please enter only " + x + " numbers");
+
     }
 }
