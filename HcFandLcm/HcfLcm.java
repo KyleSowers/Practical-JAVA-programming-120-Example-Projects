@@ -9,5 +9,7 @@ public class HcfLcm {
         int a, b, c, d, e, h, l;
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please, insert two numbers ");
     }
 }
