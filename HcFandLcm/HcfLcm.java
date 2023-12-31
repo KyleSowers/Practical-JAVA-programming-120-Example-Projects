@@ -22,5 +22,7 @@ public class HcfLcm {
             d = c % d;
             c = e;
         }
+        h = c;
+        l = (a * b) / h;
     }
 }
