@@ -13,5 +13,8 @@ public class HcfLcm {
         System.out.println("Please, insert two numbers ");
         a = sc.nextInt();
         b = sc.nextInt();
+
+        c = a;
+        d = b;
     }
 }
