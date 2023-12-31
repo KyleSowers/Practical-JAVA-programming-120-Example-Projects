@@ -20,5 +20,6 @@ public class Mean {
         }
         meannum = add / x;
 
+        System.out.println("Result of Arithmatic Mean is: " + meannum);
     }
 }
