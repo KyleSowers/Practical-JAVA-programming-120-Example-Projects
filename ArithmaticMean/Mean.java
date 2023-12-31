@@ -18,6 +18,7 @@ public class Mean {
             num1[y] = sc.nextInt();
             add = add + num1[y];
         }
+        meannum = add / x;
 
     }
 }
