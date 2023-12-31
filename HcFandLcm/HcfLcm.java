@@ -2,4 +2,7 @@
 package HcFandLcm;
 
 public class HcfLcm {
+    public static void main(String[] args) {
+
+    }
 }
