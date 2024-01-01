@@ -11,5 +11,7 @@ public class Convert {
 
         System.out.println("Please insert only binary number: ");
         BNum = sc.nextInt();
+
+        int BNum2 = BNum;
     }
 }
