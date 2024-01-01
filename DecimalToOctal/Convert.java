@@ -15,5 +15,11 @@ public class Convert {
         DNum = sc.nextInt();
 
         num1 = DNum;
+
+        while (num1 != 0) {
+            ONum[x++] = num1 % 8;
+            num1 = num1 / 8;
+        }
+        System.out.print("Octal equivalent of " + DNum + " is " );
     }
 }
