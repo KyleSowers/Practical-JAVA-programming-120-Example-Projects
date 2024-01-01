@@ -21,5 +21,8 @@ public class Convert {
             num1 = num1 / 8;
         }
         System.out.print("Octal equivalent of " + DNum + " is " );
+        for (y = x - 1; y > 0; y--) {
+            System.out.print(ONum[y]);
+        }
     }
 }
