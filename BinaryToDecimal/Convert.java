@@ -8,5 +8,7 @@ public class Convert {
 
         int BNum, DNum = 0, x = 1, num1;
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please insert only binary number: ");
     }
 }
