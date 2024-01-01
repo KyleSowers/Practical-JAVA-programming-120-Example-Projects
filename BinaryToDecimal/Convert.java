@@ -10,5 +10,6 @@ public class Convert {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please insert only binary number: ");
+        BNum = sc.nextInt();
     }
 }
