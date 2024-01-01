@@ -10,5 +10,7 @@ public class Convert {
         int ONum[] = new int[100];
 
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please insert Decimal Number only: ");
     }
 }
