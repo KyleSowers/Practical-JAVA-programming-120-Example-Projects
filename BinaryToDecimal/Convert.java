@@ -4,5 +4,6 @@ package BinaryToDecimal;
 public class Convert {
     public static void main(String[] args) {
 
+        int BNum, DNum = 0, x = 1, num1;
     }
 }
