@@ -20,5 +20,6 @@ public class Convert {
             x = x * 2;
             BNum = BNum / 10;
         }
+        System.out.print("Decimal equivalent of " + BNum2 + " is " + DNum);
     }
 }
