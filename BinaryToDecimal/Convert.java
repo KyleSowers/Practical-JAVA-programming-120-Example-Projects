@@ -13,5 +13,12 @@ public class Convert {
         BNum = sc.nextInt();
 
         int BNum2 = BNum;
+
+        while (BNum != 0) {
+            num1 = BNum % 10;
+            DNum = DNum + num1 * x;
+            x = x * 2;
+            BNum = BNum / 10;
+        }
     }
 }
