@@ -9,5 +9,6 @@ public class Current {
         Locale lc = Locale.getDefault();
 
         System.out.println(lc.getDisplayCountry());
+        System.out.println(lc.getDisplayLanguage());
     }
 }
