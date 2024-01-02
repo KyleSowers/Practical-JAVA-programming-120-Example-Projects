@@ -12,5 +12,7 @@ public class Current {
         System.out.println(lc.getDisplayLanguage());
 
         System.out.println("\n");
+
+        System.out.println(lc.getCountry());
     }
 }
