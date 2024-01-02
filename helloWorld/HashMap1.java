@@ -8,5 +8,13 @@ public class HashMap1 {
     public static void main(String[] args) {
 
     Map<String, String> mp = new HashMap<String, String>();
+
+    mp.put("1", "Monday");
+    mp.put("2", "Tuesady");
+    mp.put("3", "Wednesday");
+    mp.put("4", "Thursday");
+    mp.put("5", "Friday");
+    mp.put("6", "Saturday");
+    mp.put("7", "Sunday");
     }
 }
