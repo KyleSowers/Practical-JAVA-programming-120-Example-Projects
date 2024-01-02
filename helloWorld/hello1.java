@@ -28,5 +28,7 @@ public class hello1 {
 
         Map<String, Integer> mapsi = new TreeMap(mp);
         System.out.println("Maps after sorting: ");
+        Set st1 = mapsi.entrySet();
+        Iterator it1 = st1.iterator();
     }
 }
