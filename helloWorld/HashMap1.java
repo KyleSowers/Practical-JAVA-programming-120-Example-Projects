@@ -22,6 +22,7 @@ public class HashMap1 {
 
     while (it.hasNext()) {
         Map.Entry<String, String> entry = (Map.Entry<String, String>)it.next();
+        System.out.println("Key " + entry.getKey() + "Value is: " + entry.getValue());
     }
     }
 }
