@@ -2,6 +2,7 @@
 package helloWorld;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class HashMap1 {
@@ -10,11 +11,13 @@ public class HashMap1 {
     Map<String, String> mp = new HashMap<String, String>();
 
     mp.put("1", "Monday");
-    mp.put("2", "Tuesady");
+    mp.put("2", "Tuesday");
     mp.put("3", "Wednesday");
     mp.put("4", "Thursday");
     mp.put("5", "Friday");
     mp.put("6", "Saturday");
     mp.put("7", "Sunday");
+
+    Iterator<Map.Entry<String, String>> it = mp.entrySet().iterator();
     }
 }
