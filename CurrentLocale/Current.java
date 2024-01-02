@@ -14,5 +14,6 @@ public class Current {
         System.out.println("\n");
 
         System.out.println(lc.getCountry());
+        System.out.println(lc.getLanguage());
     }
 }
