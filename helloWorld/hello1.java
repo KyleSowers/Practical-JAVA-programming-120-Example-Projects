@@ -19,5 +19,6 @@ public class hello1 {
         mp.put("a, Monday", 1);
 
         System.out.println("Maps before sorting: ");
+        Set st = mp.entrySet();
     }
 }
