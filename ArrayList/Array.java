@@ -14,5 +14,10 @@ public class Array {
         list.add("China");
 
         System.out.println("These are the elements of array list: " + list);
+
+        //add elements into the array using index
+        list.add(0, "Mexico");
+        list.add(3, "Ghana");
+
     }
 }
