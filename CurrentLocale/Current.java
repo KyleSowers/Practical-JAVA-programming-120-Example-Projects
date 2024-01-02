@@ -7,5 +7,7 @@ public class Current {
     public static void main(String[] args) {
 
         Locale lc = Locale.getDefault();
+
+        System.out.println(lc.getDisplayCountry());
     }
 }
