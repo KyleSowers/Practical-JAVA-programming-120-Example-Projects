@@ -5,14 +5,14 @@ import java.util.ArrayList;
 
 public class Array {
     public static void main(String[] args) {
-
+        //create new ArrayList (which can be manipulated)
         ArrayList<String> list = new ArrayList<>();
-
+        //add index/elements to the ArrayList
         list.add("USA");
         list.add("Canada");
         list.add("Nigeria");
         list.add("China");
-
+        //show array to user
         System.out.println("These are the elements of array list: " + list);
 
         //add elements into the array using index
