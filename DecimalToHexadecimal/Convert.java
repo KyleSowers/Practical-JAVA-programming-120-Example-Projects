@@ -22,5 +22,6 @@ public class Convert {
             HNum = Hex[num1] + HNum;
             DNum = DNum / 16;
         }
+        System.out.println("Hexadecimal equivalent of " + DNum1 + " is " + HNum);
     }
 }
