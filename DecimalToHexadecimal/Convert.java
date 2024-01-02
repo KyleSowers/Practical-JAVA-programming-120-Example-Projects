@@ -16,5 +16,11 @@ public class Convert {
         System.out.println("Please, insert Decimal number: ");
         DNum = sc.nextInt();
         int DNum1 = DNum;
+
+        while (DNum > 0) {
+            num1 = DNum % 16;
+            HNum = Hex[num1] + HNum;
+            DNum = DNum / 16;
+        }
     }
 }
