@@ -23,5 +23,6 @@ public class Array {
         //remove elements from array
         list.remove(1);
         list.remove(4);
+        System.out.println("This is the remaining elements after removal: " + list);
     }
 }
