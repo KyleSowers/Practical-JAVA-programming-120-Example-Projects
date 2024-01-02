@@ -1,3 +1,4 @@
+//PRACTICE 78: A PROGRAM TO CREATE CURRENT LOCALE
 package CurrentLocale;
 
 public class Current {
