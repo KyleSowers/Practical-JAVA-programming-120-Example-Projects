@@ -1,10 +1,7 @@
 //PRACTICE 81: A PROGRAM TO SORT HASHMAP
 package helloWorld;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class hello1 {
 
@@ -28,5 +25,8 @@ public class hello1 {
             System.out.println(mpen.getKey() + " : " + mpen.getValue());
         }
         System.out.println("\n");
+
+        Map<String, Integer> mapsi = new TreeMap(mp);
+        System.out.println("Maps after sorting: ");
     }
 }
