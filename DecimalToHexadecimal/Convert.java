@@ -15,5 +15,6 @@ public class Convert {
 
         System.out.println("Please, insert Decimal number: ");
         DNum = sc.nextInt();
+        int DNum1 = DNum;
     }
 }
