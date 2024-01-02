@@ -19,5 +19,6 @@ public class Current {
         System.out.println("\n");
 
         System.out.println(System.getProperty("user.country"));
+        System.out.println(System.getProperty("user.language"));
     }
 }
