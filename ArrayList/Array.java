@@ -18,6 +18,6 @@ public class Array {
         //add elements into the array using index
         list.add(0, "Mexico");
         list.add(3, "Ghana");
-
+        System.out.println("These are the current elements: " + list);
     }
 }
