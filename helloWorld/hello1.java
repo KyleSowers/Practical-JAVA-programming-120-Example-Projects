@@ -2,6 +2,7 @@
 package helloWorld;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Set;
 
 public class hello1 {
@@ -20,5 +21,6 @@ public class hello1 {
 
         System.out.println("Maps before sorting: ");
         Set st = mp.entrySet();
+        Iterator it = st.iterator();
     }
 }
