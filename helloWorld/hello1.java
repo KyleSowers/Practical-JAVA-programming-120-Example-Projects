@@ -30,5 +30,9 @@ public class hello1 {
         System.out.println("Maps after sorting: ");
         Set st1 = mapsi.entrySet();
         Iterator it1 = st1.iterator();
+        while (it.hasNext()) {
+            Map.Entry mpen1 = (Map.Entry)it1.next();
+            System.out.println(mpen1.getKey() + " : " + mpen1.getValue());
+        }
     }
 }
