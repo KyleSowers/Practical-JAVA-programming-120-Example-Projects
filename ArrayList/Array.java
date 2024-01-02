@@ -12,5 +12,7 @@ public class Array {
         list.add("Canada");
         list.add("Nigeria");
         list.add("China");
+
+        System.out.println("These are the elements of array list: " + list);
     }
 }
