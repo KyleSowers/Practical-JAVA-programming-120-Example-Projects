@@ -19,5 +19,9 @@ public class HashMap1 {
     mp.put("7", "Sunday");
 
     Iterator<Map.Entry<String, String>> it = mp.entrySet().iterator();
+
+    while (it.hasNext()) {
+        Map.Entry<String, String> entry = (Map.Entry<String, String>)it.next();
+    }
     }
 }
