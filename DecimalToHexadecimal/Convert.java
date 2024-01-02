@@ -4,6 +4,6 @@ package DecimalToHexadecimal;
 public class Convert {
 
     public static void  main(String[] args) {
-
+        int DNum, num1;
     }
 }
