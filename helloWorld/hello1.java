@@ -26,7 +26,7 @@ public class hello1 {
         while (it.hasNext()) {
             Map.Entry mpen = (Map.Entry)it.next();
             System.out.println(mpen.getKey() + " : " + mpen.getValue());
-
         }
+        System.out.println("\n");
     }
 }
