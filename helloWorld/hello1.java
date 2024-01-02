@@ -34,7 +34,7 @@ public class hello1 {
         //set up, read and print result
         Set st1 = mapsi.entrySet();
         Iterator it1 = st1.iterator();
-        while (it.hasNext()) {
+        while (it1.hasNext()) {
             Map.Entry mpen1 = (Map.Entry)it1.next();
             System.out.println(mpen1.getKey() + " : " + mpen1.getValue());
         }
