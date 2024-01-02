@@ -19,5 +19,9 @@ public class Array {
         list.add(0, "Mexico");
         list.add(3, "Ghana");
         System.out.println("These are the current elements: " + list);
+
+        //remove elements from array
+        list.remove(1);
+        list.remove(4);
     }
 }
