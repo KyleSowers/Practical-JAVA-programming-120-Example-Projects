@@ -17,5 +17,13 @@ public class LongestSubString {
                 str1 = str1.substring(str1.indexOf(ch) + 1) + ch;
             }
         }
+        if(str1.length() > str2.length()) {
+            str2 = str1;
+        }
+        return str2;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
