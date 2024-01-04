@@ -25,5 +25,6 @@ public class LongestSubString {
 
     public static void main(String[] args) {
 
+        System.out.println("The longest substring of Hello World is: " + LongestStr("Hello World"));
     }
 }
