@@ -3,6 +3,7 @@ package SortHashMap;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 public class SortHashMap {
@@ -20,5 +21,10 @@ public class SortHashMap {
         System.out.println("Map before sorting");
         Set st = hm.entrySet();
         Iterator it = st.iterator();
+
+        while (it.hasNext()) {
+            Map.Entry mpen = (Map.Entry).it.next();
+            System.out.println(mpen.getKey() + " : " + mpen.getValue());
+        }
     }
 }
