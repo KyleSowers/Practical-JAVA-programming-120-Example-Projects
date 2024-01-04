@@ -14,5 +14,7 @@ public class SortHashMap {
         hm.put(1, "Monday");
         hm.put(6, "Saturday");
         hm.put(3, "Wednesday");
+
+        System.out.println("Map before sorting");
     }
 }
