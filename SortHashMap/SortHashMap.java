@@ -37,4 +37,8 @@ public class SortHashMap {
             System.out.println(mpen1.getKey() + " : " + mpen1.getValue());
         }
     }
+
+    public static HashMap sortByValues(HashMap mp) {
+
+    }
 }
