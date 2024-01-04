@@ -34,6 +34,7 @@ public class SortHashMap {
 
         while (it1.hasNext()) {
             Map.Entry mpen1 = (Map.Entry)it1.next();
+            System.out.println(mpen1.getKey() + " : " + mpen1.getValue());
         }
     }
 }
