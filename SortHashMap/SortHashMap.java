@@ -2,4 +2,7 @@
 package SortHashMap;
 
 public class SortHashMap {
+    public static void main(String[] args) {
+
+    }
 }
