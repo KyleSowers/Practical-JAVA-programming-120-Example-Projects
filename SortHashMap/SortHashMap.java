@@ -1,10 +1,7 @@
 //PRACTICE 82: A PROGRAM TO SORT HASHMAP BY VALUES
 package SortHashMap;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class SortHashMap {
     public static void main(String[] args) {
@@ -39,6 +36,6 @@ public class SortHashMap {
     }
 
     public static HashMap sortByValues(HashMap mp) {
-
+        List lt = new LinkedList(mp.entrySet());
     }
 }
