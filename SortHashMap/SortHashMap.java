@@ -23,8 +23,11 @@ public class SortHashMap {
         Iterator it = st.iterator();
 
         while (it.hasNext()) {
-            Map.Entry mpen = (Map.Entry).it.next();
+            Map.Entry mpen = (Map.Entry)it.next();
             System.out.println(mpen.getKey() + " : " + mpen.getValue());
         }
+
+        Map<Integer, String> mp = sortByValues(hm);
+        System.out.println("Map after sorting: ");
     }
 }
