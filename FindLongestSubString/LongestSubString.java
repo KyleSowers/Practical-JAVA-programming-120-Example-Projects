@@ -1,5 +1,5 @@
 package FindLongestSubString;
 
-public class LongestStr {
+public class LongestSubString {
     private static String LongestStr(String str)
 }
