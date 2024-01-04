@@ -31,5 +31,9 @@ public class SortHashMap {
         System.out.println("Map after sorting: ");
         Set st1 = mp.entrySet();
         Iterator it1 = st1.iterator();
+
+        while (it1.hasNext()) {
+            Map.Entry mpen1 = (Map.Entry)it1.next();
+        }
     }
 }
