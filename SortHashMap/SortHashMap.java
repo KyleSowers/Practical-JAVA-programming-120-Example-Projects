@@ -2,6 +2,7 @@
 package SortHashMap;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class SortHashMap {
     public static void main(String[] args) {
@@ -16,5 +17,6 @@ public class SortHashMap {
         hm.put(3, "Wednesday");
 
         System.out.println("Map before sorting");
+        Set st = hm.entrySet();
     }
 }
