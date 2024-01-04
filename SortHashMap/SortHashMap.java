@@ -37,5 +37,16 @@ public class SortHashMap {
 
     public static HashMap sortByValues(HashMap mp) {
         List lt = new LinkedList(mp.entrySet());
+        Collections.sort(lt, new Comparator() {
+            public int compare(Object o1, Object o2) {
+                return((Comparable)((Map.Entry)(o1)).getValue()).compareTo(((Map.Entry)(o2)).getValue());
+            }
+        });
+        HashMap sorted = new LinkedHashMap();
+        for (Iterator it2 = lt.iterator(); it2.hasNext();) {
+            Map.Entry ent = (Map.Entry)it2.next();
+            sorted.put(ent.getKey(), ent.getValue());
+        }
+        return sorted;
     }
 }
