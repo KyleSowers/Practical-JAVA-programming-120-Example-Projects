@@ -29,5 +29,6 @@ public class SortHashMap {
 
         Map<Integer, String> mp = sortByValues(hm);
         System.out.println("Map after sorting: ");
+        Set st1 = mp.entrySet();
     }
 }
