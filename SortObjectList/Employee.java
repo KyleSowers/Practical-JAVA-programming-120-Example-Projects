@@ -2,4 +2,10 @@
 package SortObjectList;
 
 public class Employee {
+
+    private String name;
+    private String occupation;
+    private int salary;
+
+
 }
