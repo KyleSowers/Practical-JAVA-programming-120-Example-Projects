@@ -2,6 +2,7 @@
 package SortObjectList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Employee implements Comparable<Employee> {
@@ -72,5 +73,7 @@ public class Employee implements Comparable<Employee> {
          }
 
          System.out.println("\n");
+
+         Collections.sort(employee);
      }
 }
