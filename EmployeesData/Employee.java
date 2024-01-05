@@ -1,6 +1,9 @@
 //PRACTICE 84: A PROGRAM TO GET EMPLOYEE'S DATA
 package EmployeesData;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Employee {
 
     private String name;
@@ -50,5 +53,7 @@ public class Employee {
         Employee employee4 = new Employee("Vivian","Nurse",700);
         Employee employee5 = new Employee("Juliet","Chef",10000);
         Employee employee6 = new Employee("Mark","Gardener",70000);
+
+        List<Employee> employeeList = new ArrayList();
     }
 }
