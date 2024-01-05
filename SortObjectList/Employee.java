@@ -75,5 +75,10 @@ public class Employee implements Comparable<Employee> {
          System.out.println("\n");
 
          Collections.sort(employee);
+
+         System.out.println("Objects after sorting: ");
+         for (Employee emp1:employee) {
+             System.out.println(emp1);
+         }
      }
 }
