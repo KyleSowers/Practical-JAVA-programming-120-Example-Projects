@@ -49,5 +49,10 @@ public class Employee implements Comparable<Employee> {
 
      public static void main(String args[]) {
 
+        Employee employee1 = new Employee("Hello1","Programmer1",1000);
+        Employee employee2 = new Employee("Hello2","Programmer2",7000);
+        Employee employee3 = new Employee("Hello3","Programmer3",6000);
+        Employee employee4 = new Employee("Hello4","Programmer4",4000);
+        Employee employee5 = new Employee("Hello5","Programmer5",8000);
      }
 }
