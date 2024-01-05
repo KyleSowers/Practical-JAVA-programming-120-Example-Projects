@@ -7,5 +7,10 @@ public class Employee {
     private String occupation;
     private int salary;
 
-
+    public Employee(String firstname, String job, int value) {
+        super();
+        this.name = firstname;
+        this.occupation = job;
+        this.salary = value;
+    }
 }
