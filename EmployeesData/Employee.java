@@ -44,5 +44,11 @@ public class Employee {
 
     public static void main(String[] args) {
 
+        Employee employee1 = new Employee("Hello","Programmer",1000);
+        Employee employee2 = new Employee("Jude","Doctor",4000);
+        Employee employee3 = new Employee("Joseph","Lawyer",500);
+        Employee employee4 = new Employee("Vivian","Nurse",700);
+        Employee employee5 = new Employee("Juliet","Chef",10000);
+        Employee employee6 = new Employee("Mark","Gardener",70000);
     }
 }
