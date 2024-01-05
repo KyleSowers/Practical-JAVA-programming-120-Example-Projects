@@ -61,5 +61,10 @@ public class Employee {
         employeeList.add(employee4);
         employeeList.add(employee5);
         employeeList.add(employee6);
+
+        System.out.println("The Employee data is below \n");
+        for (Employee employee:employeeList) {
+            System.out.println(employee);
+        }
     }
 }
