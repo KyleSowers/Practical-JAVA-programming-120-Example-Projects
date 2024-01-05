@@ -1,7 +1,7 @@
 //PRACTICE 85: A PROGRAM TO SORT OBJECT USING COMPARABLE INTERFACE
 package SortObjectList;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private String name;
     private String occupation;
@@ -39,5 +39,11 @@ public class Employee {
 
      public String toString() {
         return "Name of employeeis: " + name + " Occupation is: " + salary;
+     }
+
+     @Override
+    public int compareTo(Employee comparemydata) {
+        int compareValue = ((Employee) comparemydata).getSalary();
+        return this.salary - compareValue;
      }
 }
