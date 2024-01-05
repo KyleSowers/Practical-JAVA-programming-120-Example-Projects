@@ -13,4 +13,8 @@ public class Employee {
         this.occupation = job;
         this.salary = value;
     }
+
+    public String getName() {
+        return name;
+    }
 }
