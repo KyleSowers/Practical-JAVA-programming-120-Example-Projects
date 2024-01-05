@@ -46,4 +46,8 @@ public class Employee implements Comparable<Employee> {
         int compareValue = ((Employee) comparemydata).getSalary();
         return this.salary - compareValue;
      }
+
+     public static void main(String args[]) {
+
+     }
 }
