@@ -55,5 +55,11 @@ public class Employee {
         Employee employee6 = new Employee("Mark","Gardener",70000);
 
         List<Employee> employeeList = new ArrayList();
+        employeeList.add(employee1);
+        employeeList.add(employee2);
+        employeeList.add(employee3);
+        employeeList.add(employee4);
+        employeeList.add(employee5);
+        employeeList.add(employee6);
     }
 }
