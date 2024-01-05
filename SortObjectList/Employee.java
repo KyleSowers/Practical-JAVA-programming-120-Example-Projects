@@ -66,6 +66,9 @@ public class Employee implements Comparable<Employee> {
         employee.add(employee4);
         employee.add(employee5);
 
-
+         System.out.println("Objects before sorting: ");
+         for (Employee emp1:employee) {
+             System.out.println(emp1);
+         }
      }
 }
