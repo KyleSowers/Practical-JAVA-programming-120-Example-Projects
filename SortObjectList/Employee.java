@@ -59,5 +59,13 @@ public class Employee implements Comparable<Employee> {
         Employee employee5 = new Employee("Hello5","Programmer5",8000);
 
         List<Employee> employee = new ArrayList();
+
+        employee.add(employee1);
+        employee.add(employee2);
+        employee.add(employee3);
+        employee.add(employee4);
+        employee.add(employee5);
+
+
      }
 }
