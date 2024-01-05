@@ -36,4 +36,8 @@ public class Employee {
      public void setSalary(int salary) {
         this.salary = salary;
      }
+
+     public String toString() {
+        return "Name of employeeis: " + name + " Occupation is: " + salary;
+     }
 }
