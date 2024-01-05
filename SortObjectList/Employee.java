@@ -70,5 +70,7 @@ public class Employee implements Comparable<Employee> {
          for (Employee emp1:employee) {
              System.out.println(emp1);
          }
+
+         System.out.println("\n");
      }
 }
