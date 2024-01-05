@@ -29,4 +29,8 @@ public class Employee {
     public void setOccupation(String occupation) {
         this.occupation = occupation;
     }
+
+    public int getSalary() {
+        return salary;
+    }
 }
