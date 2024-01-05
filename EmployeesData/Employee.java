@@ -41,4 +41,8 @@ public class Employee {
     public String toString() {
         return "name is: " + name + " Occupatin is: " + occupation + " Salary is: " + salary;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
