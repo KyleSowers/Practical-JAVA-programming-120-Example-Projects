@@ -1,6 +1,9 @@
 //PRACTICE 85: A PROGRAM TO SORT OBJECT USING COMPARABLE INTERFACE
 package SortObjectList;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Employee implements Comparable<Employee> {
 
     private String name;
@@ -54,5 +57,7 @@ public class Employee implements Comparable<Employee> {
         Employee employee3 = new Employee("Hello3","Programmer3",6000);
         Employee employee4 = new Employee("Hello4","Programmer4",4000);
         Employee employee5 = new Employee("Hello5","Programmer5",8000);
+
+        List<Employee> employee = new ArrayList();
      }
 }
