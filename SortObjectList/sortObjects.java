@@ -30,6 +30,10 @@ public class sortObjects implements Comparator<Employee> {
         for (Employee employee : employeelist) {
             System.out.println(employee);
         }
+
+        System.out.println("\n");
+
+
     }
 }
 
