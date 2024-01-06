@@ -12,6 +12,11 @@ public class sortObjects implements Comparator<Employee> {
 
     public static void main(String[] args) {
 
+        Employee employee1 = new Employee("Hello1", "Programmer1", 1000);
+        Employee employee2 = new Employee("Hello2", "Programmer2", 300);
+        Employee employee3 = new Employee("Hello3", "Programmer3", 18000);
+        Employee employee4 = new Employee("Hello4", "Programmer4", 900);
+        Employee employee5 = new Employee("Hello5", "Programmer5", 8000);
     }
 }
 
