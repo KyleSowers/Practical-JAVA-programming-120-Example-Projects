@@ -1,6 +1,7 @@
 //PRACTICE 86: A PROGRAM TO SORT OBJECT USING COMPARATOR INTERFACE
 package SortObjectList;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -32,6 +33,8 @@ public class sortObjects implements Comparator<Employee> {
         }
 
         System.out.println("\n");
+
+        Collections.sort(employeelist, new sortObjects());
 
 
     }
