@@ -36,7 +36,10 @@ public class sortObjects implements Comparator<Employee> {
 
         Collections.sort(employeelist, new sortObjects());
 
-
+        System.out.println("Objects after sorting: ");
+        for (Employee employee : employeelist) {
+            System.out.println(employee);
+        }
     }
 }
 
