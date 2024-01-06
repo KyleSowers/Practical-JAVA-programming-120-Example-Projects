@@ -2,6 +2,7 @@
 package SortObjectList;
 
 import java.util.Comparator;
+import java.util.List;
 
 public class sortObjects implements Comparator<Employee> {
 
@@ -17,6 +18,8 @@ public class sortObjects implements Comparator<Employee> {
         Employee employee3 = new Employee("Hello3", "Programmer3", 18000);
         Employee employee4 = new Employee("Hello4", "Programmer4", 900);
         Employee employee5 = new Employee("Hello5", "Programmer5", 8000);
+
+        List<Employee> employeelist = new ArrayList();
     }
 }
 
