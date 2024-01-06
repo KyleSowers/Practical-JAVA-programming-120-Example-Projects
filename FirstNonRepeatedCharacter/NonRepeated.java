@@ -21,5 +21,11 @@ public class NonRepeated {
                     chmap.put(ch, 1);
                 }
             }
+            for (int x = 0; x < Str1.length(); x++) {
+                if (chmap.get(Str1.charAt(x)) == 1) {
+                    System.out.println("First non-repeated character of " + Str1 + " is " + Str1.charAt(x));
+                    break;
+                }
+            }
         }
 }
