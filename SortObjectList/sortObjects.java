@@ -20,6 +20,11 @@ public class sortObjects implements Comparator<Employee> {
         Employee employee5 = new Employee("Hello5", "Programmer5", 8000);
 
         List<Employee> employeelist = new ArrayList();
+        employeelist.add(employee1);
+        employeelist.add(employee2);
+        employeelist.add(employee3);
+        employeelist.add(employee4);
+        employeelist.add(employee5);
     }
 }
 
