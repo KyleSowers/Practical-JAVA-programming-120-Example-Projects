@@ -11,5 +11,6 @@ public class NonRepeated {
             Scanner sc = new Scanner(System.in);
 
             System.out.println("Please insert only string value: ");
+            String Str1 = sc.nextLine();
         }
 }
