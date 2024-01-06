@@ -1,3 +1,6 @@
 package SortObjectList;
-public class sortObjects {
+
+import java.util.Comparator;
+
+public class sortObjects implements Comparator<Employee> {
 }
