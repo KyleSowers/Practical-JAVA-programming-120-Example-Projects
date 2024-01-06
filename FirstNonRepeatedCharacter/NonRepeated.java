@@ -9,5 +9,7 @@ public class NonRepeated {
         public static void main(String[] args) {
             Map<Character, Integer> chmap = new HashMap();
             Scanner sc = new Scanner(System.in);
+
+            System.out.println("Please insert only string value: ");
         }
 }
