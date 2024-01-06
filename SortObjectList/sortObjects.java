@@ -25,6 +25,11 @@ public class sortObjects implements Comparator<Employee> {
         employeelist.add(employee3);
         employeelist.add(employee4);
         employeelist.add(employee5);
+
+        System.out.println("Objects before sorting: ");
+        for (Employee employee : employeelist) {
+            System.out.println(employee);
+        }
     }
 }
 
