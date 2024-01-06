@@ -2,5 +2,7 @@
 package FirstNonRepeatedCharacter;
 
 public class NonRepeated {
+        public static void main(String[] args) {
 
+        }
 }
