@@ -17,5 +17,12 @@ public class Permutation {
 
     public static Set<String> StrPermut(String Str1) {
         Set<String> strper = new HashSet<String>();
+
+        if (Str1 == null) {
+            return null;
+        } else {
+            strper.add("");
+            return strper;
+        }
     }
 }
