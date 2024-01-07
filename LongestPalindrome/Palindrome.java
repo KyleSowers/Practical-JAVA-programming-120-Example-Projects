@@ -11,6 +11,15 @@ public class Palindrome {
         }
 
         String lngs = Str1.substring(0, 1);
+        for(int x = 0; x < Str1.length(); x++) {
+            String lngx = LongestPalindrome(Str1, x, x);
+            if (lngx.length() > lngs.length()) {
+            lngs = lngx;
+        }
 
+        lngx = LongestPalindrome(Str1, x, x + 1);
+        if(lngx.length() > lngs.length()) {
+            lngs = lngx;
+        }
     }
 }
