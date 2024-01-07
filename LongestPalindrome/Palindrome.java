@@ -39,5 +39,7 @@ public class Palindrome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please insert some string values: ");
         String Str2 = sc.nextLine();
+
+        System.out.println("Result of the longest Palindrome is: " + new Palindrome().LongPalin(Str2));
     }
 }
