@@ -9,5 +9,7 @@ public class Permutation {
 
         System.out.println("Please, insert a string: ");
         String Str1 = sc.nextLine();
+
+        System.out.print("The result of the permutation is: " + StrPermut(Str1));
     }
 }
