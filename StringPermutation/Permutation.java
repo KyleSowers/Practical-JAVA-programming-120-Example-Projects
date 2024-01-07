@@ -27,5 +27,8 @@ public class Permutation {
 
         char first = Str1.charAt(0);
         String Str2 = Str1.substring(1);
+
+        Set<String> Str4 = StrPermut(Str2);
+
     }
 }
