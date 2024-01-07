@@ -2,5 +2,7 @@
 package LongestPalindrome;
 
 public class Palindrome {
+    public String LongPalin(String Str1) {
 
+    }
 }
