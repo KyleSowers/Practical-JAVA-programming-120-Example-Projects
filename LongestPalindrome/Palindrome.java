@@ -9,5 +9,8 @@ public class Palindrome {
         if (Str1.length() == 1) {
             return Str1;
         }
+
+        String lngs = Str1.substring(0, 1);
+
     }
 }
