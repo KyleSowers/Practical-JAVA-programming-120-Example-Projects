@@ -2,6 +2,7 @@
 package StringPermutation;
 
 import java.util.Scanner;
+import java.util.Set;
 
 public class Permutation {
     public static void main(String[] args) {
@@ -11,5 +12,9 @@ public class Permutation {
         String Str1 = sc.nextLine();
 
         System.out.print("The result of the permutation is: " + StrPermut(Str1));
+    }
+
+    public static Set<String> StrPermut(String Str1) {
+
     }
 }
