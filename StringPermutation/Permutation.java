@@ -20,9 +20,12 @@ public class Permutation {
 
         if (Str1 == null) {
             return null;
-        } else {
+        } else if (Str1.length() == 0) {
             strper.add("");
             return strper;
         }
+
+        char first = Str1.charAt(0);
+        String Str2 = Str1.substring(1);
     }
 }
