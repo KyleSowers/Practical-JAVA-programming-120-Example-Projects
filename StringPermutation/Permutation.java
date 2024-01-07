@@ -8,5 +8,6 @@ public class Permutation {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, insert a string: ");
+        String Str1 = sc.nextLine();
     }
 }
