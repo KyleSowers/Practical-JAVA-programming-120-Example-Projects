@@ -1,6 +1,7 @@
 //PRACTICE 88: A PROGRAM TO GENERATE PERMUTATION OF A STRING
 package StringPermutation;
 
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -15,6 +16,6 @@ public class Permutation {
     }
 
     public static Set<String> StrPermut(String Str1) {
-
+        Set<String> strper = new HashSet<String>();
     }
 }
