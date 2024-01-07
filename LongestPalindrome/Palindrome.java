@@ -32,4 +32,8 @@ public class Palindrome {
         }
         return Str1.substring(start +1, last);
     }
+
+    public static void  main(String[] args) {
+
+    }
 }
