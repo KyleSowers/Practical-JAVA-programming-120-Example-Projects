@@ -34,5 +34,13 @@ public class Permutation {
                 strper.add(charInsert(StrOne,first,x));
             }
         }
+        return strper;
+    }
+
+    public static String charInsert(String Str1, char ch, int y) {
+        String second = Str1.substring(0, y);
+        String last = Str1.substring(y);
+
+        return second + ch + last;
     }
 }
