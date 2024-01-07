@@ -29,6 +29,10 @@ public class Permutation {
         String Str2 = Str1.substring(1);
 
         Set<String> Str4 = StrPermut(Str2);
-
+        for (String StrOne : Str4) {
+            for (int  x = 0; x <= StrOne.length(); x++) {
+                strper.add(charInsert(StrOne,first,x));
+            }
+        }
     }
 }
