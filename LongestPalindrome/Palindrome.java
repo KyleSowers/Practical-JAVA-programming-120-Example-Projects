@@ -38,5 +38,6 @@ public class Palindrome {
     public static void  main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please insert some string values: ");
+        String Str2 = sc.nextLine();
     }
 }
