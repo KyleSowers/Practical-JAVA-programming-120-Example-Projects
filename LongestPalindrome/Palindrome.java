@@ -1,6 +1,8 @@
 //PRACTICE 89: A PROGRAM TO GET THE RESULT OF THE LONGEST PALINDROME
 package LongestPalindrome;
 
+import java.util.Scanner;
+
 public class Palindrome {
     public String LongPalin(String Str1) {
         if (Str1.isEmpty()) {
@@ -34,6 +36,6 @@ public class Palindrome {
     }
 
     public static void  main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
     }
 }
