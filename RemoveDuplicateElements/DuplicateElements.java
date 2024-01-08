@@ -28,5 +28,7 @@ public class DuplicateElements {
         al.clear();
 
         al.addAll(hset);
+
+        System.out.println("\n");
     }
 }
