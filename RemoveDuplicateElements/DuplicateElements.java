@@ -2,6 +2,7 @@
 package RemoveDuplicateElements;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 import java.util.List;
 
 public class DuplicateElements {
@@ -19,5 +20,7 @@ public class DuplicateElements {
 
         System.out.println("List before removing duplicate elements: ");
         System.out.println(al);
+
+        LinkedHashSet<String> hset = new LinkedHashSet<String>();
     }
 }
