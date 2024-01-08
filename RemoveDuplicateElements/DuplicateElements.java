@@ -18,5 +18,6 @@ public class DuplicateElements {
         al.add("TTT");
 
         System.out.println("List before removing duplicate elements: ");
+        System.out.println(al);
     }
 }
