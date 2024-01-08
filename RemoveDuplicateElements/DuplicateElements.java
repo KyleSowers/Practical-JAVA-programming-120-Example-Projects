@@ -26,5 +26,7 @@ public class DuplicateElements {
         hset.addAll(al);
 
         al.clear();
+
+        al.addAll(hset);
     }
 }
