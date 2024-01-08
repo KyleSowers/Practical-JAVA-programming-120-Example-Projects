@@ -28,5 +28,8 @@ public class SortList {
         Collections.sort(al, Collections.reverseOrder());
 
         System.out.println("Result of ArrayList in Decending order is: ");
+        for (String Str1 : al) {
+            System.out.println(Str1);
+        }
     }
 }
