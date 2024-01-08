@@ -8,5 +8,13 @@ public class DuplicateElements {
     public static void main(String[] args) {
 
         List<String> al = new ArrayList<String>();
+
+        al.add("TTT");
+        al.add("SSS");
+        al.add("TTT");
+        al.add("DDD");
+        al.add("AAA");
+        al.add("SSS");
+        al.add("TTT");
     }
 }
