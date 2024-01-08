@@ -30,5 +30,7 @@ public class DuplicateElements {
         al.addAll(hset);
 
         System.out.println("\n");
+
+        System.out.println("List after removing duplicate elements: " + al);
     }
 }
