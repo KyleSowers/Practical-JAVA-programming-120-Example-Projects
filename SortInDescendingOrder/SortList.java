@@ -26,5 +26,7 @@ public class SortList {
         System.out.println("\n");
 
         Collections.sort(al, Collections.reverseOrder());
+
+        System.out.println("Result of ArrayList in Decending order is: ");
     }
 }
