@@ -2,6 +2,7 @@
 package SortInDescendingOrder;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class SortList {
     public static void main(String[] args) {
@@ -24,6 +25,6 @@ public class SortList {
 
         System.out.println("\n");
 
-
+        Collections.sort(al, Collections.reverseOrder());
     }
 }
