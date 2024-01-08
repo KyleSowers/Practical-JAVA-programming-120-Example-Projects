@@ -17,6 +17,7 @@ public class SortList {
         al.add("JAVA");
         al.add("PYTHON");
 
+        System.out.println("Array before sorting: ");
 
     }
 }
