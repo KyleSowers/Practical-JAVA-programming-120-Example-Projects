@@ -24,5 +24,7 @@ public class DuplicateElements {
         LinkedHashSet<String> hset = new LinkedHashSet<String>();
 
         hset.addAll(al);
+
+        al.clear();
     }
 }
