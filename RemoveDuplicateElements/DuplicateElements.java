@@ -16,5 +16,7 @@ public class DuplicateElements {
         al.add("AAA");
         al.add("SSS");
         al.add("TTT");
+
+        System.out.println("List before removing duplicate elements: ");
     }
 }
