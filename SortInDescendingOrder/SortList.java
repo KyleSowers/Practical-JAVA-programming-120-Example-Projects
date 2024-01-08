@@ -21,5 +21,9 @@ public class SortList {
         for(String Str1: al) {
             System.out.println(Str1);
         }
+
+        System.out.println("\n");
+
+
     }
 }
