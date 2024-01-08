@@ -22,5 +22,7 @@ public class DuplicateElements {
         System.out.println(al);
 
         LinkedHashSet<String> hset = new LinkedHashSet<String>();
+
+        hset.addAll(al);
     }
 }
