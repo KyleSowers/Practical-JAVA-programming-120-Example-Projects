@@ -7,5 +7,16 @@ public class SortList {
     public static void main(String[] args) {
 
         ArrayList<String> al = new ArrayList<String>();
+
+        al.add("KYC");
+        al.add("EYE");
+        al.add("HELLO");
+        al.add("WELCOME");
+        al.add("CUP");
+        al.add("AT");
+        al.add("JAVA");
+        al.add("PYTHON");
+
+
     }
 }
