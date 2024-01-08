@@ -18,6 +18,8 @@ public class SortList {
         al.add("PYTHON");
 
         System.out.println("Array before sorting: ");
-
+        for(String Str1: al) {
+            System.out.println(Str1);
+        }
     }
 }
