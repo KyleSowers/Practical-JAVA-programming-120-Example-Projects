@@ -5,7 +5,9 @@ public class DoubleThreads {
     public static void main(String[] args) throws InterruptedException {
 
         Thread FirstThread = new Thread() {
+            public void run() {
 
+            }
         }
     }
 }
