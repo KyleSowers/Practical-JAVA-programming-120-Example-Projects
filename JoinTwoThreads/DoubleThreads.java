@@ -9,9 +9,12 @@ public class DoubleThreads {
                 try {
                     System.out.println(Thread.currentThread().getName() + " Just Started");
                     System.out.println(Thread.currentThread().getName() + " Just Completed");
-                } catch (InterruptedException ex) {
+                } finally {
 
                 }
+//                catch (InterruptedException ex) {
+//
+//                }
             }
         };
         Thread SecondThread = new Thread() {
@@ -19,8 +22,13 @@ public class DoubleThreads {
                 try {
                     System.out.println(Thread.currentThread().getName() + " Just Started");
                     Thread.sleep(1000);
+                    System.out.println(Thread.currentThread().getName() + " Just Completed");
+                } catch (InterruptedException ex) {
+
                 }
             }
-        }
+        };
+        FirstThread.start();
+        FirstThread.join();
     }
 }
