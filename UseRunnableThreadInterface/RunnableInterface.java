@@ -12,5 +12,6 @@ public class RunnableInterface implements Runnable{
     @Override
     public void run() {
 
+        System.out.println("This is a runnable interface...");
     }
 }
