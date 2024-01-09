@@ -1,4 +1,4 @@
 package ThreadInJava;
 
-public class UseThread {
+public class UseThread extends Thread {
 }
