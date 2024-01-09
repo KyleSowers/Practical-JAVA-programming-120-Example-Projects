@@ -2,7 +2,7 @@
 package JoinTwoThreads;
 
 public class DoubleThreads {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
     }
 }
