@@ -1,3 +1,4 @@
+//PRACTICE 93: A PROGRAM TO CREATE A THREAD USING RUNNABLE INTERFACE
 package UseRunnableThreadInterface;
 
 public class RunnableInterface implements Runnable{
