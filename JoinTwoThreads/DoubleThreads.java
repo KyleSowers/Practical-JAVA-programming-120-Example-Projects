@@ -9,10 +9,15 @@ public class DoubleThreads {
                 try {
                     System.out.println(Thread.currentThread().getName() + " Just Started");
                     System.out.println(Thread.currentThread().getName() + " Just Completed");
-                } catch(InterruptedException ex) {
+                } catch (InterruptedException ex) {
 
                 }
             }
         };
+        Thread SecondThread = new Thread() {
+
+
+            }
+        }
     }
 }
