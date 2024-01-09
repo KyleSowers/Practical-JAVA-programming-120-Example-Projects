@@ -18,7 +18,7 @@ public class DoubleThreads {
             public void run() {
                 try {
                     System.out.println(Thread.currentThread().getName() + " Just Started");
-
+                    Thread.sleep(1000);
                 }
             }
         }
