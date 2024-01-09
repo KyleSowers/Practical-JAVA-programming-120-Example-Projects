@@ -8,4 +8,9 @@ public class RunnableInterface implements Runnable{
         Thread th = new Thread(runthread);
         th.start();
     }
+
+    @Override
+    public void run() {
+
+    }
 }
