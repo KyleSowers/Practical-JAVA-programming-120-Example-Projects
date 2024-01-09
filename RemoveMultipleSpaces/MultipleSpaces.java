@@ -13,5 +13,6 @@ public class MultipleSpaces {
         while(Str2.hasMoreElements()) {
             Str3.append(Str2.nextElement()).append(" ");
         }
+        System.out.println(Str3.toString().trim());
     }
 }
