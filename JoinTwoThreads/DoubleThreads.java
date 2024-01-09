@@ -8,6 +8,7 @@ public class DoubleThreads {
             public void run() {
                 try {
                     System.out.println(Thread.currentThread().getName() + " Just Started");
+                    System.out.println(Thread.currentThread().getName() + " Just Completed");
                 }
             }
         }
