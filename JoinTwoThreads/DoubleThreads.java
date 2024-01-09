@@ -2,4 +2,7 @@
 package JoinTwoThreads;
 
 public class DoubleThreads {
+    public static void main(String[] args) {
+
+    }
 }
