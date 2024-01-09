@@ -34,5 +34,6 @@ public class DoubleThreads {
         SecondThread.start();
         SecondThread.join();
 
+        System.out.println("main Just Completed");
     }
 }
