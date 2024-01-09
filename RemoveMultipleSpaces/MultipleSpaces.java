@@ -8,5 +8,6 @@ public class MultipleSpaces {
 
         String Str1 = "Hello    World   and Today    is java";
         StringTokenizer Str2 = new StringTokenizer(Str1, " ");
+        StringBuffer Str3 = new StringBuffer();
     }
 }
