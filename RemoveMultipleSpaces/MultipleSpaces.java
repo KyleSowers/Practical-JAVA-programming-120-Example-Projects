@@ -2,4 +2,7 @@
 package RemoveMultipleSpaces;
 
 public class MultipleSpaces {
+    public static void main(String[] args) {
+
+    }
 }
