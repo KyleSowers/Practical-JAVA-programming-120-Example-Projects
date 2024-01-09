@@ -8,5 +8,6 @@ public class UseThread extends Thread {
 
     public static void main(String[] args) {
 
+        UseThread ust = new UseThread();
     }
 }
