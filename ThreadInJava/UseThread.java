@@ -1,3 +1,4 @@
+//PRACTICE 92: A PROGRAM TO RUN A THREAD
 package ThreadInJava;
 
 public class UseThread extends Thread {
