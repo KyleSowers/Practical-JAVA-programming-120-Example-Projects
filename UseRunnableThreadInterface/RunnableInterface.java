@@ -6,5 +6,6 @@ public class RunnableInterface implements Runnable{
 
         RunnableInterface runthread = new RunnableInterface();
         Thread th = new Thread(runthread);
+        th.start();
     }
 }
