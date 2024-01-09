@@ -1,4 +1,5 @@
 package UseRunnableThreadInterface;
 
-public class RunnableInterface {
+public class RunnableInterface implements Runnable{
+
 }
