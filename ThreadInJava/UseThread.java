@@ -2,5 +2,7 @@ package ThreadInJava;
 
 public class UseThread extends Thread {
 
-    public void run()
+    public void run() {
+        System.out.println("This is a runnable thread...");
+    }
 }
