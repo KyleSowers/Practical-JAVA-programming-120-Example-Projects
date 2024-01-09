@@ -30,5 +30,9 @@ public class DoubleThreads {
         };
         FirstThread.start();
         FirstThread.join();
+
+        SecondThread.start();
+        SecondThread.join();
+
     }
 }
