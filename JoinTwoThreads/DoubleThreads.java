@@ -15,7 +15,7 @@ public class DoubleThreads {
             }
         };
         Thread SecondThread = new Thread() {
-
+            public void run() {
 
             }
         }
