@@ -43,5 +43,6 @@ public class Array {
         Array al = new Array();
 
         Arrays.sort(x);
+        Arrays.sort(y);
     }
 }
