@@ -11,7 +11,7 @@ public class Array {
     }
 
     public static int[] Total(int[] x, int[] y) {
-
+        int[] rest1 = {};
     }
     public static void main(String[] args) {
 
