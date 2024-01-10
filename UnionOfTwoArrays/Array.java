@@ -27,6 +27,7 @@ public class Array {
                 j++;
             }
         }
+        int z;
     }
     public static void main(String[] args) {
 
