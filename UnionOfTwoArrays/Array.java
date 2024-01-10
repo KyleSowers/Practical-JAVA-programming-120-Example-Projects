@@ -9,6 +9,10 @@ public class Array {
         output[num1.length] = sumed;
         return output;
     }
+
+    public static int[] Total(int[] x, int[] y) {
+
+    }
     public static void main(String[] args) {
 
     }
