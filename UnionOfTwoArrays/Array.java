@@ -13,6 +13,10 @@ public class Array {
     public static int[] Total(int[] x, int[] y) {
         int[] rest1 = {};
         int i = 0, j = 0;
+
+        while (i < x.length && j < y.length) {
+
+        }
     }
     public static void main(String[] args) {
 
