@@ -34,6 +34,7 @@ public class Array {
         for (z = j; z < y.length; z++) {
             rest1 = sumElement(rest1, y[z]);
         }
+        return rest1
     }
     public static void main(String[] args) {
 
