@@ -28,6 +28,9 @@ public class Array {
             }
         }
         int z;
+        for (z = i; z < x.length; z++) {
+
+        }
     }
     public static void main(String[] args) {
 
