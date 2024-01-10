@@ -15,7 +15,10 @@ public class Array {
         int i = 0, j = 0;
 
         while (i < x.length && j < y.length) {
-
+            if (x[i] < y[j]) {
+                rest1 = sumElement(rest1, x[i]);
+                i++;
+            }
         }
     }
     public static void main(String[] args) {
