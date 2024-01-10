@@ -31,7 +31,9 @@ public class Array {
         for (z = i; z < x.length; z++) {
             rest1 = sumElement(rest1, x[z]);
         }
-
+        for (z = j; z < y.length; z++) {
+            rest1 = sumElement(rest1, y[z]);
+        }
     }
     public static void main(String[] args) {
 
