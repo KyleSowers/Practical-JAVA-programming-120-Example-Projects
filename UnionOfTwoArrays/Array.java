@@ -46,5 +46,6 @@ public class Array {
         Arrays.sort(y);
 
         int[] output = Array.Total(x, y);
+        System.out.println("the result of the union is: " + Arrays.toString(output));
     }
 }
