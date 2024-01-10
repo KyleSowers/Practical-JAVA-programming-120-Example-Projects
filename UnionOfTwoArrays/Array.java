@@ -37,6 +37,7 @@ public class Array {
         return rest1
     }
     public static void main(String[] args) {
-
+        int[] x = {99, 600, 2, 5, 50, 72, 10};
+        int[] y = {3, 5, 2, 10, 50, 1000, 8};
     }
 }
