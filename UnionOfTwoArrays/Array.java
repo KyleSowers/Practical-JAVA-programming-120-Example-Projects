@@ -29,8 +29,9 @@ public class Array {
         }
         int z;
         for (z = i; z < x.length; z++) {
-
+            rest1 = sumElement(rest1, x[z]);
         }
+
     }
     public static void main(String[] args) {
 
