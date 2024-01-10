@@ -18,6 +18,10 @@ public class Array {
             if (x[i] < y[j]) {
                 rest1 = sumElement(rest1, x[i]);
                 i++;
+            } else if (x[i] == y[j]) {
+                rest1 = sumElement(rest1, x[i]);
+                i++;
+                j++;
             }
         }
     }
