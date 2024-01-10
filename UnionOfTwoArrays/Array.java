@@ -34,7 +34,7 @@ public class Array {
         for (z = j; z < y.length; z++) {
             rest1 = sumElement(rest1, y[z]);
         }
-        return rest1
+        return rest1;
     }
     public static void main(String[] args) {
         int[] x = {99, 600, 2, 5, 50, 72, 10};
@@ -46,6 +46,6 @@ public class Array {
         Arrays.sort(y);
 
         int[] output = Array.Total(x, y);
-        System.out.println("the result of the union is: " + Arrays.toString(output));
+        System.out.println("The result of the union is: " + Arrays.toString(output));
     }
 }
