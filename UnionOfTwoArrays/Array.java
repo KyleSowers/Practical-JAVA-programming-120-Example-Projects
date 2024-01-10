@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class Array {
     public static int[] sumElement(int[] num1, int sumed) {
         int[] output = Arrays.copyOf(num1, num1.length+1);
+        output[num1.length] = sumed;
     }
     public static void main(String[] args) {
 
