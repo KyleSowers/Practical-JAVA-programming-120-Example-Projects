@@ -41,5 +41,7 @@ public class Array {
         int[] y = {3, 5, 2, 10, 50, 1000, 8};
 
         Array al = new Array();
+
+        Arrays.sort(x);
     }
 }
