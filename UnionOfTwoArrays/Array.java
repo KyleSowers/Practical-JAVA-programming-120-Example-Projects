@@ -22,6 +22,9 @@ public class Array {
                 rest1 = sumElement(rest1, x[i]);
                 i++;
                 j++;
+            } else {
+                rest1 = sumElement(rest1, y[j]);
+                j++;
             }
         }
     }
