@@ -2,6 +2,9 @@
 package UnionOfTwoArrays;
 
 public class Array {
+    public static int[] sumElement(int[] num1, int sumed) {
+
+    }
     public static void main(String[] args) {
 
     }
