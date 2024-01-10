@@ -44,5 +44,7 @@ public class Array {
 
         Arrays.sort(x);
         Arrays.sort(y);
+
+        int[] output = Array.Total(x, y);
     }
 }
