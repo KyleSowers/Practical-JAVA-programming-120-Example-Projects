@@ -38,6 +38,6 @@ public class ArrayIntersection {
         ArrayIntersection aint = new ArrayIntersection();
 
         Arrays.sort(y);
-
+        Arrays.sort(z);
     }
 }
