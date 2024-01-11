@@ -39,5 +39,7 @@ public class ArrayIntersection {
 
         Arrays.sort(y);
         Arrays.sort(z);
+
+        int[] output = ArrayIntersection.IntersectElement(y, z);
     }
 }
