@@ -41,5 +41,6 @@ public class ArrayIntersection {
         Arrays.sort(z);
 
         int[] output = ArrayIntersection.IntersectElement(y, z);
+        System.out.println("The result of intersection is: " + Arrays.toString(output));
     }
 }
