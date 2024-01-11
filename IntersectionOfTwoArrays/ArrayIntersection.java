@@ -9,6 +9,7 @@ public class ArrayIntersection {
 
         int[] output = Arrays.copyOf(x, x.length + 1);
         output[x.length] = intersect;
+        return output;
     }
 
     public static void main(String[] args) {
