@@ -2,7 +2,13 @@
 package IntersectionOfTwoArrays;
 
 public class ArrayIntersection {
+
+    public static int[] sumElement(int[] x, int intersect) {
+
+    }
+
     public static void main(String[] args) {
+
 
     }
 }
