@@ -33,6 +33,6 @@ public class ArrayIntersection {
 
     public static void main(String[] args) {
 
-
+        int[] y = {56, 70, 8, 2, 10, 700, 1000, 23, 13}
     }
 }
