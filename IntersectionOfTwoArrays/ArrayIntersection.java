@@ -35,6 +35,6 @@ public class ArrayIntersection {
 
         int[] y = {56, 70, 8, 2, 10, 700, 1000, 23, 13};
         int[] z = {2, 500, 70, 24, 13, 8, 80, 1};
-
+        ArrayIntersection aint = new ArrayIntersection();
     }
 }
