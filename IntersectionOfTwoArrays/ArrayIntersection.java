@@ -12,6 +12,10 @@ public class ArrayIntersection {
         return output;
     }
 
+    public static int[] IntersectElement(int[] y, int[] z) {
+
+    }
+
     public static void main(String[] args) {
 
 
