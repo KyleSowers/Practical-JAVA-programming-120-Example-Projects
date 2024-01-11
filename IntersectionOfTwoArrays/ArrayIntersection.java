@@ -24,6 +24,8 @@ public class ArrayIntersection {
                 inter = sumElement(inter, y[i]);
                 i++;
                 j++;
+            } else {
+                j++;
             }
         }
     }
