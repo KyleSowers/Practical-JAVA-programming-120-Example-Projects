@@ -15,6 +15,7 @@ public class ArrayIntersection {
     public static int[] IntersectElement(int[] y, int[] z) {
 
         int[] inter = {};
+        int i = 0, j = 0;
     }
 
     public static void main(String[] args) {
