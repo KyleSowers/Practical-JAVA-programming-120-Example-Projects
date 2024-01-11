@@ -20,6 +20,10 @@ public class ArrayIntersection {
         while (i < y.length && j < z.length) {
             if(y[i] < z[j]) {
                 i++;
+            } else if (y[i] == z[j]) {
+                inter = sumElement(inter, y[i]);
+                i++;
+                j++;
             }
         }
     }
