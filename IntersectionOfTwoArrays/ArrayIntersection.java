@@ -28,6 +28,7 @@ public class ArrayIntersection {
                 j++;
             }
         }
+        return inter;
     }
 
     public static void main(String[] args) {
