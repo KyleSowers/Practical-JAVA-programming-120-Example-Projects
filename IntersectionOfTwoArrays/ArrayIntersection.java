@@ -16,6 +16,12 @@ public class ArrayIntersection {
 
         int[] inter = {};
         int i = 0, j = 0;
+
+        while (i < y.length && j < z.length) {
+            if(y[i] < z[j]) {
+                i++;
+            }
+        }
     }
 
     public static void main(String[] args) {
