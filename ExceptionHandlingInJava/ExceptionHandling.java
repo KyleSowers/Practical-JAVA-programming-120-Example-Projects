@@ -7,5 +7,10 @@ public class ExceptionHandling {
 
         int a =30;
         int b = 0;
+
+        try {
+            float c = a/b;
+            System.out.println("The result of C is : " + c);
+        }
     }
 }
