@@ -8,5 +8,7 @@ public class Power {
 
         System.out.println("Please, insert a number: ");
         Scanner sc = new Scanner(System.in);
+
+        int num1 = sc.nextInt();
     }
 }
