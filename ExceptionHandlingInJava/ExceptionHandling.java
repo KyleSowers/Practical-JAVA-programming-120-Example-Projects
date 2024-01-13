@@ -11,6 +11,8 @@ public class ExceptionHandling {
         try {
             float c = a/b;
             System.out.println("The result of C is : " + c);
+        } catch (ArithmeticException e) {
+            System.out.println("Please do not use 0 as a divider");
         }
     }
 }
