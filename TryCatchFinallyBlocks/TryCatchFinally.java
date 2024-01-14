@@ -9,6 +9,7 @@ public class TryCatchFinally {
         int y = 0;
         try {
             int z = x/y;
+            System.out.println(z);
         }
     }
 }
