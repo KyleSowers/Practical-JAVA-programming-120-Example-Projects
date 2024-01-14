@@ -1,3 +1,4 @@
+//PRACTICE 100: A PROGRAM FOR MULTIPLE CATCH BLOCKS IN EXCEPTION HANDLING
 package MultipleCatchBlocks;
 
 import IntersectionOfTwoArrays.ArrayIntersection;
