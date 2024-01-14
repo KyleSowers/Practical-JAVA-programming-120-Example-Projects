@@ -4,6 +4,8 @@ package ExceptionHandlingUsingFinally;
 public class ExceptionHandling {
 
     public String FinallyBlock() {
-
+        try {
+            return "Return from try block";
+        }
     }
 }
