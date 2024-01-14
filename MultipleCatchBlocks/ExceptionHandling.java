@@ -5,6 +5,7 @@ public class ExceptionHandling {
 
         try {
             int x[] = new int[10];
+            x[5] = 4/8;
         }
     }
 }
