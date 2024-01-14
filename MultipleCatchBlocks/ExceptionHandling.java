@@ -1,5 +1,7 @@
 package MultipleCatchBlocks;
 
+import IntersectionOfTwoArrays.ArrayIntersection;
+
 public class ExceptionHandling {
     public static void main(String[] args) {
 
@@ -9,6 +11,8 @@ public class ExceptionHandling {
 
             System.out.println(y);
         } catch (ArithmeticException e) {
+            System.out.println("This is an " + e);
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("This is an " + e);
         }
     }
