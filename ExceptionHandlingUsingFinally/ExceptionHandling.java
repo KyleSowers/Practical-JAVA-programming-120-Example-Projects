@@ -2,4 +2,8 @@
 package ExceptionHandlingUsingFinally;
 
 public class ExceptionHandling {
+
+    public String FinallyBlock() {
+
+    }
 }
