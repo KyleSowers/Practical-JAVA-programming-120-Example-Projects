@@ -17,5 +17,6 @@ public class ExceptionHandling {
         } catch (Exception e) {
             System.out.println("This is an " + e);
         }
+        System.out.println("Out of try-catch block");
     }
 }
