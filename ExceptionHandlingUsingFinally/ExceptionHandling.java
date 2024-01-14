@@ -10,4 +10,7 @@ public class ExceptionHandling {
             System.out.println("Return from finally block after return statement");
         }
     }
+    public static void main(String[] args) {
+
+    }
 }
