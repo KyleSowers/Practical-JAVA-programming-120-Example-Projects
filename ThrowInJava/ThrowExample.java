@@ -14,5 +14,6 @@ public class ThrowExample {
     public static void main(String[] args) {
 
         System.out.println("Checking leap year");
+        LeapYear(2023);
     }
 }
