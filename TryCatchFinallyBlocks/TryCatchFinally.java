@@ -11,7 +11,7 @@ public class TryCatchFinally {
             int z = x/y;
             System.out.println(z);
         } catch (ArithmeticException e) {
-
+            System.out.println("Error occurred " + e);
         }
 
     }
