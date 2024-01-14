@@ -14,6 +14,8 @@ public class ExceptionHandling {
             System.out.println("This is an " + e);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("This is an " + e);
+        } catch (Exception e) {
+            System.out.println("This is an " + e);
         }
     }
 }
