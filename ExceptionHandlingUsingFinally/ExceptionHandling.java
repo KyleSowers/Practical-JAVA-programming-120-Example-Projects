@@ -6,6 +6,8 @@ public class ExceptionHandling {
     public String FinallyBlock() {
         try {
             return "Return from try block";
+        } finally {
+            System.out.println("Return from finally block after return statement");
         }
     }
 }
