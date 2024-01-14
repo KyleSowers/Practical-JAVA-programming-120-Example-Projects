@@ -12,6 +12,8 @@ public class TryCatchFinally {
             System.out.println(z);
         } catch (ArithmeticException e) {
             System.out.println("Error occurred " + e);
+        } finally {
+
         }
 
     }
