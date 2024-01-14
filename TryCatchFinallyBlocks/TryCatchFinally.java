@@ -7,5 +7,8 @@ public class TryCatchFinally {
 
         int x = 12;
         int y = 0;
+        try {
+            int z = x/y;
+        }
     }
 }
