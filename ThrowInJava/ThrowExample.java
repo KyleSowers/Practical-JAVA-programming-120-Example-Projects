@@ -2,4 +2,8 @@
 package ThrowInJava;
 
 public class ThrowExample {
+
+    public static void LeapYear(int yr) {
+
+    }
 }
