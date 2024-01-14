@@ -13,7 +13,7 @@ public class TryCatchFinally {
         } catch (ArithmeticException e) {
             System.out.println("Error occurred " + e);
         } finally {
-
+            System.out.println("This is finally");
         }
 
     }
