@@ -10,4 +10,8 @@ public class ThrowExample {
             System.out.println("This is a leap year");
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
