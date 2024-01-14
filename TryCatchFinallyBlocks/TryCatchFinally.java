@@ -10,6 +10,9 @@ public class TryCatchFinally {
         try {
             int z = x/y;
             System.out.println(z);
+        } catch (ArithmeticException e) {
+
         }
+
     }
 }
