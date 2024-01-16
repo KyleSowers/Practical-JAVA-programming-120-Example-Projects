@@ -5,5 +5,9 @@ public class SuperInheritance {
     class student {
         String firstname;
         String lastname;
+
+        student (String fname, String lname) {
+
+        }
     }
 }
