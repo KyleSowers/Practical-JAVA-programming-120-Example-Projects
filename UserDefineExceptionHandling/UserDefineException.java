@@ -7,6 +7,9 @@ class DefineException extends Exception{
     DefineException(String sr2) {
         sr1 = sr2;
     }
+    public String toString() {
+
+    }
 }
 
 public class UserDefineException {
