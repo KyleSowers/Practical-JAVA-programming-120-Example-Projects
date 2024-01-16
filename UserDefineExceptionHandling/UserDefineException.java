@@ -17,7 +17,8 @@ public class UserDefineException {
         try {
             throw new DefineException("A user defined Exception");
         } catch (DefineException exp) {
-
+            System.out.println("This is inside the catch block");
+            System.out.println(exp);
         }
     }
 }
