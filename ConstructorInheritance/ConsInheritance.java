@@ -9,7 +9,9 @@ public class ConsInheritance {
     }
 
     class school extends student {
-
+        school() {
+            System.out.println("This is second student constructor");
+        }
     }
 
     class studentschool extends school {
