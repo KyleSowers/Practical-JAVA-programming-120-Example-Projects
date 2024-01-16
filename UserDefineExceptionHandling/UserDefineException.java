@@ -5,7 +5,7 @@ class DefineException extends Exception{
 
     String sr1;
     DefineException(String sr2) {
-
+        sr1 = sr2;
     }
 }
 
