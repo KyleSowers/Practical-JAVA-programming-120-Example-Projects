@@ -4,6 +4,6 @@ package ConstructorInheritance;
 public class ConsInheritance {
 
     public static void  main(String[] args) {
-
+        studentschool ss = new studentschool();
     }
 }
