@@ -11,4 +11,8 @@ public class SuperInheritance {
             lastname = lname;
         }
     }
+
+    class school {
+
+    }
 }
