@@ -3,6 +3,6 @@ package SuperInheritanceInJava;
 
 public class SuperInheritance {
     class student {
-
+        String firstname;
     }
 }
