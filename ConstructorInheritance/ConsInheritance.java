@@ -3,7 +3,9 @@ package ConstructorInheritance;
 
 public class ConsInheritance {
     class student {
-
+        student() {
+            System.out.println("This is first student constructor");
+        }
     }
 
     class school extends student {
