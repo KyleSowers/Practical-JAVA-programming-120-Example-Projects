@@ -2,6 +2,10 @@
 package ConstructorInheritance;
 
 public class ConsInheritance {
+    class student {
+
+    }
+
     class school extends student {
 
     }
