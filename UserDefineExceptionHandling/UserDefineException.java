@@ -3,6 +3,7 @@ package UserDefineExceptionHandling;
 
 class DefineException extends Exception{
 
+    String sr1;
 }
 
 public class UserDefineException {
