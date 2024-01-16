@@ -8,7 +8,7 @@ class DefineException extends Exception{
         sr1 = sr2;
     }
     public String toString() {
-
+        return ("Our result is: " + sr1);
     }
 }
 
