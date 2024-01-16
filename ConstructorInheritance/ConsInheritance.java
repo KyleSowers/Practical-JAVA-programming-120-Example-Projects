@@ -15,7 +15,9 @@ public class ConsInheritance {
     }
 
     class studentschool extends school {
-
+        studentschool() {
+            System.out.println("This is third student constructor");
+        }
     }
 
     public static void  main(String[] args) {
