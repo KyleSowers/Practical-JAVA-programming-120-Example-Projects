@@ -2,5 +2,7 @@
 package SuperInheritanceInJava;
 
 public class SuperInheritance {
-    String firstname;
+    class student {
+
+    }
 }
