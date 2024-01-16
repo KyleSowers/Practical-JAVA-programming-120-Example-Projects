@@ -16,6 +16,8 @@ public class UserDefineException {
     public static void main(String[] args) {
         try {
             throw new DefineException("A user defined Exception");
+        } catch (DefineException exp) {
+
         }
     }
 }
