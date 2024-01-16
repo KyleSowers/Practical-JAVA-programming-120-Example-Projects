@@ -8,7 +8,7 @@ public class SuperInheritance {
 
         student (String fname, String lname) {
             firstname = fname;
-
+            lastname = lname;
         }
     }
 }
