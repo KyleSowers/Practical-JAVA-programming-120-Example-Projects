@@ -12,7 +12,7 @@ public class SuperInheritance {
         }
     }
 
-    class school {
+    class school extends student{
 
     }
 }
