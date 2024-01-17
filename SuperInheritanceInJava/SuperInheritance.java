@@ -22,4 +22,8 @@ public class SuperInheritance {
             subject = sub;
         }
     }
+
+    public class SuperInheritance {
+
+    }
 }
