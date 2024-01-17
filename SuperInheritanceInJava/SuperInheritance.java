@@ -14,5 +14,6 @@ public class SuperInheritance {
 
     class school extends student{
         int grade;
+        String subject;
     }
 }
