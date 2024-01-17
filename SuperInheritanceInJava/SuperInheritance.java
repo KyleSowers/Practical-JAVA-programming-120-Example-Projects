@@ -17,7 +17,7 @@ public class SuperInheritance {
         String subject;
 
         school (String fname, String lname, int score, String sub) {
-
+            super (fname, lname);
         }
     }
 }
