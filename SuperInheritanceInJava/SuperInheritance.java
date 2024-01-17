@@ -24,6 +24,8 @@ public class SuperInheritance {
     }
 
     public class SuperInheritance {
+        public static void main(String[] args) {
 
+        }
     }
 }
