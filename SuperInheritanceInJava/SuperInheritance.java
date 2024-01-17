@@ -18,6 +18,7 @@ public class SuperInheritance {
 
         school (String fname, String lname, int score, String sub) {
             super (fname, lname);
+            grade = score;
         }
     }
 }
