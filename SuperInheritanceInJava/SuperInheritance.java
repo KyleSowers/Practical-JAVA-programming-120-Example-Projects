@@ -1,7 +1,7 @@
 //PRACTICE 106: A PROGRAM FOR SUPER CLASS IN INHERITANCE
 package SuperInheritanceInJava;
 
-public class SuperInheritance {
+
     class student {
         String firstname;
         String lastname;
@@ -25,7 +25,7 @@ public class SuperInheritance {
 
     public class SuperInheritance {
         public static void main(String[] args) {
-
+            school sch = new school("David", "Jacob", 98, "Jave");
         }
     }
 }
