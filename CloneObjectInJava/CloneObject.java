@@ -13,4 +13,8 @@ public class CloneObject implements Cloneable{
     public void show() {
         System.out.println("Welcome " + name + "! Your score is: " + record);
     }
+
+    public static void main(String[] args) {
+
+    }
 }
