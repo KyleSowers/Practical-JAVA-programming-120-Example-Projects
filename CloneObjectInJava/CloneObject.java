@@ -6,6 +6,6 @@ public class CloneObject implements Cloneable{
     int record;
 
     public CloneObject(String name, int record) {
-
+        this.name = name;
     }
 }
