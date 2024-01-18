@@ -19,6 +19,7 @@ public class CloneObject implements Cloneable{
         CloneObject co = new CloneObject("David", 98);
         try {
             CloneObject co1 = (CloneObject)co.clone();
+            co1.show();
         }
     }
 }
