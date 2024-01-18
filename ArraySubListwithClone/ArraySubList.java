@@ -2,6 +2,7 @@
 package ArraySubListwithClone;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArraySubList {
     public static void main(String args[]) {
@@ -20,5 +21,6 @@ public class ArraySubList {
 
         System.out.println("Total arraylist is: " + alist);
 
+        List<String> list1 = alist.subList(2, 5);
     }
 }
