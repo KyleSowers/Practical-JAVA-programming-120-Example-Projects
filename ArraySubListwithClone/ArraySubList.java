@@ -23,5 +23,7 @@ public class ArraySubList {
 
         List<String> list1 = alist.subList(2, 5);
         System.out.println("The result of the sublist is: " + list1);
+
+        ArrayList<String> list2 = new ArrayList<String>(alist.subList(3, 6));
     }
 }
