@@ -9,4 +9,8 @@ public class CloneObject implements Cloneable{
         this.name = name;
         this.record = record;
     }
+
+    public void show() {
+
+    }
 }
