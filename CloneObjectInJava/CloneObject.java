@@ -7,5 +7,6 @@ public class CloneObject implements Cloneable{
 
     public CloneObject(String name, int record) {
         this.name = name;
+        this.record = record;
     }
 }
