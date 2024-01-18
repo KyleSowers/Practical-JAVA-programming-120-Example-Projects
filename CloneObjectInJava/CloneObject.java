@@ -3,4 +3,5 @@ package CloneObjectInJava;
 
 public class CloneObject implements Cloneable{
     String name;
+    int record;
 }
