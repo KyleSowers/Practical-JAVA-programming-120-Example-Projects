@@ -21,7 +21,7 @@ public class CloneObject implements Cloneable{
             CloneObject co1 = (CloneObject)co.clone();
             co1.show();
         } catch (CloneNotSupportedException e) {
-
+            e.printStackTrace();
         }
     }
 }
