@@ -17,5 +17,8 @@ public class ArraySubList {
         alist.add("777");
         alist.add("888");
         alist.add("999");
+
+        System.out.println("Total arraylist is: " + alist);
+
     }
 }
