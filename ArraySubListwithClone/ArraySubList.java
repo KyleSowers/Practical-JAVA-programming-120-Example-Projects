@@ -25,5 +25,6 @@ public class ArraySubList {
         System.out.println("The result of the sublist is: " + list1);
 
         ArrayList<String> list2 = new ArrayList<String>(alist.subList(3, 6));
+        System.out.println("The result of the stored is: " + list2);
     }
 }
