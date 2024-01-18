@@ -22,5 +22,6 @@ public class ArraySubList {
         System.out.println("Total arraylist is: " + alist);
 
         List<String> list1 = alist.subList(2, 5);
+        System.out.println("The result of the sublist is: " + list1);
     }
 }
