@@ -16,5 +16,6 @@ public class CloneObject implements Cloneable{
 
     public static void main(String[] args) {
 
+        CloneObject co = new CloneObject("David", 98);
     }
 }
