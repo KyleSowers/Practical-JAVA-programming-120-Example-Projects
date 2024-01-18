@@ -20,6 +20,8 @@ public class CloneObject implements Cloneable{
         try {
             CloneObject co1 = (CloneObject)co.clone();
             co1.show();
+        } catch (CloneNotSupportedException e) {
+
         }
     }
 }
