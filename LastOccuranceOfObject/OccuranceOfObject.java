@@ -26,5 +26,7 @@ public class OccuranceOfObject {
         list1.add("555");
 
         System.out.println("The size of the list is: " + list1.size());
+
+        System.out.println("last occurrence of 000 is: " + list1.lastIndexOf("000"));
     }
 }
