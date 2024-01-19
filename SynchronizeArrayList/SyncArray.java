@@ -23,7 +23,7 @@ public class SyncArray implements  Cloneable {
         synchronized (list) {
             Iterator<String> it = list.iterator();
             while(it.hasNext()) {
-
+                System.out.println(it.next());
             }
         }
     }
