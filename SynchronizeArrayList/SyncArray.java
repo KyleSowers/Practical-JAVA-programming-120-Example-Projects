@@ -8,8 +8,9 @@ import java.util.List;
 
 public class SyncArray implements  Cloneable {
     public static void main(String[] args) {
+        //create new list for strings
         List<String> list = Collections.synchronizedList(new ArrayList<String>());
-
+        //add strings ti list
         list.add("111");
         list.add("222");
         list.add("333");
@@ -19,7 +20,7 @@ public class SyncArray implements  Cloneable {
         list.add("777");
         list.add("888");
         list.add("999");
-
+        // method to iterate list
         synchronized (list) {
             Iterator<String> it = list.iterator();
             while(it.hasNext()) {
