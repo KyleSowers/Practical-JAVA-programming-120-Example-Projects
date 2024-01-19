@@ -2,4 +2,7 @@
 package LastOccuranceOfObject;
 
 public class OccuranceOfObject {
+    public static void  main(String[] args) {
+
+    }
 }
