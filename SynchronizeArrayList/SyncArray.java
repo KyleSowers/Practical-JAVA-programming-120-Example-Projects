@@ -3,6 +3,7 @@ package SynchronizeArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class SyncArray implements  Cloneable {
@@ -20,7 +21,7 @@ public class SyncArray implements  Cloneable {
         list.add("999");
 
         synchronized (list) {
-
+            Iterator<String> it = list.iterator();
         }
     }
 }
