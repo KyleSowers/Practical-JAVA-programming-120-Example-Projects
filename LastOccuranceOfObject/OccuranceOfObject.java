@@ -31,6 +31,7 @@ public class OccuranceOfObject {
         System.out.println("last occurrence of 111 is: " + list1.lastIndexOf("111"));
         System.out.println("last occurrence of 222 is: " + list1.lastIndexOf("222"));
         System.out.println("last occurrence of 333 is: " + list1.lastIndexOf("333"));
+        System.out.println("last occurrence of 444 is: " + list1.lastIndexOf("444"));
 
     }
 }
