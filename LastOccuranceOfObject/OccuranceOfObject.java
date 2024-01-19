@@ -28,7 +28,8 @@ public class OccuranceOfObject {
         System.out.println("The size of the list is: " + list1.size());
 
         System.out.println("last occurrence of 000 is: " + list1.lastIndexOf("000"));
-        System.out.println("last occurrence of "111" is: " + list1.lastIndexOf("111"));
+        System.out.println("last occurrence of 111 is: " + list1.lastIndexOf("111"));
+        System.out.println("last occurrence of 222 is: " + list1.lastIndexOf("222"));
 
     }
 }
