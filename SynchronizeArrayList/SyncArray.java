@@ -18,5 +18,9 @@ public class SyncArray implements  Cloneable {
         list.add("777");
         list.add("888");
         list.add("999");
+
+        synchronized (list) {
+
+        }
     }
 }
