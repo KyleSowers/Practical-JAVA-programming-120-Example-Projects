@@ -8,5 +8,15 @@ import java.util.List;
 public class SyncArray implements  Cloneable {
     public static void main(String[] args) {
         List<String> list = Collections.synchronizedList(new ArrayList<String>());
+
+        list.add("");
+        list.add("");
+        list.add("");
+        list.add("");
+        list.add("");
+        list.add("");
+        list.add("");
+        list.add("");
+        list.add("");
     }
 }
