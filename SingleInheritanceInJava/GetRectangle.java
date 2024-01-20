@@ -1,3 +1,4 @@
+//PRACTICE 111: A PROGRAM TO DEMONSTRATE SINGLE INHERITANCE
 package SingleInheritanceInJava;
 
 class Area {
