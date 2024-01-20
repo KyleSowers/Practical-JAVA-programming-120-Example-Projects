@@ -6,7 +6,7 @@ class Area {
 }
 public class GetRectangle extends Area {
 
-
+    int area;
 }
 
 
