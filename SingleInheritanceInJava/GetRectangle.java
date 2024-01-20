@@ -9,7 +9,7 @@ public class GetRectangle extends Area {
     int area;
 
     public void TotalArea() {
-
+        area = width * height;
     }
 }
 
