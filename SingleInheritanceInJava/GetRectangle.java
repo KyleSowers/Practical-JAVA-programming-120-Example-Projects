@@ -11,6 +11,10 @@ public class GetRectangle extends Area {
     public void TotalArea() {
         area = width * height;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
 
 
