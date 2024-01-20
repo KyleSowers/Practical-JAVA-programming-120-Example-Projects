@@ -21,6 +21,7 @@ public class GetRectangle extends Area {
         gr.height = 13;
 
         gr.TotalArea();
+        System.out.println("The result of the area of your rectangle is: " + gr.area);
     }
 }
 
