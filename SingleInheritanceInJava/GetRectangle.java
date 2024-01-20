@@ -16,6 +16,9 @@ public class GetRectangle extends Area {
     public static void main(String[] args) {
 
         GetRectangle gr = new GetRectangle();
+
+        gr.width = 25;
+
     }
 }
 
