@@ -19,6 +19,8 @@ public class GetRectangle extends Area {
 
         gr.width = 25;
         gr.height = 13;
+
+        gr.TotalArea();
     }
 }
 
