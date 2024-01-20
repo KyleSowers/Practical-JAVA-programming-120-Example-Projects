@@ -4,7 +4,7 @@ class Area {
     int height;
     int width;
 }
-public class GetRectangle {
+public class GetRectangle extends Area {
 
 
 }
