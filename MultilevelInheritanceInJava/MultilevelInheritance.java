@@ -8,6 +8,9 @@ class LevelA {
 
 class LevelB extends LevelA {
 
+    public void showB() {
+
+    }
 }
 
 public class MultilevelInheritance {
