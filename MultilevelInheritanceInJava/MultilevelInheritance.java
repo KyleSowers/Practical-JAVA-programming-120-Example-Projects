@@ -26,5 +26,7 @@ public class MultilevelInheritance {
     public static void main(String[] args) {
 
         LevelC lc = new LevelC();
+
+        lc.showA();
     }
 }
