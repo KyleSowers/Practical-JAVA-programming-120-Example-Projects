@@ -29,5 +29,6 @@ public class MultilevelInheritance {
 
         lc.showA();
         lc.showB();
+        lc.showC();
     }
 }
