@@ -13,5 +13,9 @@ class LevelB extends LevelA {
     }
 }
 
+class LevelC {
+
+}
+
 public class MultilevelInheritance {
 }
