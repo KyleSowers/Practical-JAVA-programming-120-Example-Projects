@@ -6,5 +6,9 @@ class LevelA {
     }
 }
 
+class LevelB {
+
+}
+
 public class MultilevelInheritance {
 }
