@@ -9,7 +9,7 @@ class LevelA {
 class LevelB extends LevelA {
 
     public void showB() {
-
+        System.out.println("This level belongs to B");
     }
 }
 
