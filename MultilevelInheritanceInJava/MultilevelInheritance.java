@@ -28,5 +28,6 @@ public class MultilevelInheritance {
         LevelC lc = new LevelC();
 
         lc.showA();
+        lc.showB();
     }
 }
