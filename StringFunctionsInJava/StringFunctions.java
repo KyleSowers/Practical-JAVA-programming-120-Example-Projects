@@ -7,5 +7,6 @@ public class StringFunctions {
 
         String str1 = "Hello";
         String str2 = "World";
+        String str3 = "Hello     World";
     }
 }
