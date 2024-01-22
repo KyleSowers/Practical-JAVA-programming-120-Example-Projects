@@ -11,5 +11,6 @@ public class StringFunctions {
         String str4 = new String("Welcome");
 
         System.out.println("Str1 is: " + str1);
+        System.out.println("Str2 is: " + str2);
     }
 }
