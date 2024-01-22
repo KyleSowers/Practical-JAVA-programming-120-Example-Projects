@@ -14,7 +14,7 @@ class LevelB extends LevelA {
     }
 }
 
-class LevelC {
+class LevelC extends LevelB {
 
 }
 
