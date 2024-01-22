@@ -16,5 +16,7 @@ public class StringFunctions {
         System.out.println("Str4 is: " + str4);
 
         System.out.println("\n");
+
+        System.out.println("Str1 in lowercase is: " + str1.toLowerCase());
     }
 }
