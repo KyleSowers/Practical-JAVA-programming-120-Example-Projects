@@ -14,7 +14,7 @@ class LevelB extends LevelA {
     }
 }
 
-class LevelC extends LevelB {
+class LevelC extends LevelA {
 
     public void showC() {
 
