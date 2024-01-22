@@ -3,7 +3,7 @@ package HierarchicalInheritanceInJava;
 
 class LevelA {
     public void showA() {
-
+        System.out.println("This is level A");
     }
 }
 
