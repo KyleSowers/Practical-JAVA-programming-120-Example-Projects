@@ -17,7 +17,7 @@ class LevelB extends LevelA {
 class LevelC extends LevelA {
 
     public void showC() {
-
+        System.out.println("This is level C");
     }
 }
 
