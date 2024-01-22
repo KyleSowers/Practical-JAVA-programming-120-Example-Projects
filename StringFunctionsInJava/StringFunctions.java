@@ -9,5 +9,7 @@ public class StringFunctions {
         String str2 = "World";
         String str3 = "Hello     World";
         String str4 = new String("Welcome");
+
+        System.out.println("Str1 is: " + str1);
     }
 }
