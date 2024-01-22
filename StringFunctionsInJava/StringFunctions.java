@@ -19,5 +19,6 @@ public class StringFunctions {
 
         System.out.println("Str1 in lowercase is: " + str1.toLowerCase());
         System.out.println("Str3 in uppercase is: " + str3.toUpperCase());
+        System.out.println("Str2 replace value: " + str2.replace("W", "p"));
     }
 }
