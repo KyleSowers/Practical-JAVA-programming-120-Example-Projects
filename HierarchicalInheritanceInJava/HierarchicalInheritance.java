@@ -7,8 +7,11 @@ class LevelA {
     }
 }
 
-class LevelB extends LevelA{
+class LevelB extends LevelA {
 
+    public void showB() {
+
+    }
 }
 
 public class HierarchicalInheritance {
