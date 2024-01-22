@@ -21,7 +21,7 @@ class LevelC extends LevelA {
     }
 }
 
-class LevelD {
+class LevelD extends LevelA{
 
 }
 
