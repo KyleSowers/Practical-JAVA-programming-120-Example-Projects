@@ -2,7 +2,9 @@
 package HierarchicalInheritanceInJava;
 
 class LevelA {
+    public void showA() {
 
+    }
 }
 
 public class HierarchicalInheritance {
