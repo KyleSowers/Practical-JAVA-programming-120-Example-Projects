@@ -21,6 +21,10 @@ class LevelC extends LevelA {
     }
 }
 
+class LevelD {
+
+}
+
 public class HierarchicalInheritance {
 
 }
