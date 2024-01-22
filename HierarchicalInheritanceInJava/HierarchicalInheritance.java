@@ -38,5 +38,6 @@ public class HierarchicalInheritance {
 
         LevelC lc = new LevelC();
         lc.showC();
+        //lc.showA();
     }
 }
