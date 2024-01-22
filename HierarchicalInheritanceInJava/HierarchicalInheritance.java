@@ -30,4 +30,7 @@ class LevelD extends LevelA{
 
 public class HierarchicalInheritance {
 
+    public static void main(String[] args) {
+
+    }
 }
