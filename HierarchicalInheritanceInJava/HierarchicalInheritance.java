@@ -23,6 +23,9 @@ class LevelC extends LevelA {
 
 class LevelD extends LevelA{
 
+    public void showD() {
+
+    }
 }
 
 public class HierarchicalInheritance {
