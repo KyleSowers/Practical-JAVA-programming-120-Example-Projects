@@ -6,5 +6,8 @@ public class CountWords {
     static int z, y = 0, output;
     static int count(String s) {
         char ch[] = new char[s.length()];
+        for (z = 0; z < s.length(); z++) {
+
+        }
     }
 }
