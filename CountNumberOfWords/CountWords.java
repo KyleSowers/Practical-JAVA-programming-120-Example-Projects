@@ -1,6 +1,8 @@
 //PRACTICE 115: A PROGRAM TO COUNT NUMBER OF WORDS IN A STRING VARIABLE
 package CountNumberOfWords;
 
+import java.util.Scanner;
+
 public class CountWords {
 
     static int z, y = 0, output;
@@ -17,6 +19,6 @@ public class CountWords {
 
     public static void main(String args[]) {
         String Str1 = " ";
-
+        Scanner sc = new Scanner(System.in);
     }
 }
