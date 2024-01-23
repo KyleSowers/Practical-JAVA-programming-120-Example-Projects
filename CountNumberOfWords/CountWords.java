@@ -14,4 +14,8 @@ public class CountWords {
         }
         return y;
     }
+
+    public static void main(String args[]) {
+
+    }
 }
