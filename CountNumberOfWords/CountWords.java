@@ -23,5 +23,6 @@ public class CountWords {
         System.out.println("Please, insert some word");
         Str1 = sc.nextLine();
         int words = CountWords.count(Str1);
+        System.out.println("the number of words is: " + words);
     }
 }
