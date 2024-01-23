@@ -20,5 +20,6 @@ public class CountWords {
     public static void main(String args[]) {
         String Str1 = " ";
         Scanner sc = new Scanner(System.in);
+        System.out.println("Please, insert some word");
     }
 }
