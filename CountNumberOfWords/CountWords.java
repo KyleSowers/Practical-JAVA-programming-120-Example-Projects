@@ -9,9 +9,9 @@ public class CountWords {
         for (z = 0; z < s.length(); z++) {
 
             ch[z] = s.charAt(z);
-            if (((z > 0) && (ch[z] != ' ') && (ch[z - 1] == ' ')) || ((ch[0] != ' ') && (z == 0))) {
+            if (((z > 0) && (ch[z] != ' ') && (ch[z - 1] == ' ')) || ((ch[0] != ' ') && (z == 0)))
                 y++;
-            }
         }
+        return y;
     }
 }
