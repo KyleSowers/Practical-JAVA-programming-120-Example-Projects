@@ -8,6 +8,7 @@ public class CountWords {
         char ch[] = new char[s.length()];
         for (z = 0; z < s.length(); z++) {
 
+            ch[z] = s.charAt(z);
         }
     }
 }
