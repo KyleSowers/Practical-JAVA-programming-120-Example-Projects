@@ -5,6 +5,6 @@ public class CountWords {
 
     static int z, y = 0, output;
     static int count(String s) {
-
+        char ch[] = new char[s.length()];
     }
 }
