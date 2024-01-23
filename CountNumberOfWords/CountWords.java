@@ -22,5 +22,6 @@ public class CountWords {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please, insert some word");
         Str1 = sc.nextLine();
+        int words = CountWords.count(Str1);
     }
 }
