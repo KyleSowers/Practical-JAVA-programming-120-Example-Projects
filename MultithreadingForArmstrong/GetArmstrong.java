@@ -20,3 +20,7 @@ public class GetArmstrong {
         }
     }
 }
+
+public class CallThread {
+
+}
