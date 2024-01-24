@@ -3,4 +3,7 @@ package MultithreadingForArmstrong;
 
 public class GetArmstrong {
 
+    public void run() {
+
+    }
 }
