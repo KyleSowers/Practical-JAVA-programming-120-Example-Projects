@@ -14,6 +14,9 @@ public class GetArmstrong {
                 add = add + (res * res * res);
                 x = x / 10;
             }
+            if (add == y) {
+
+            }
         }
     }
 }
