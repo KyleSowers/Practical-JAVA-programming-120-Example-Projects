@@ -5,5 +5,6 @@ public class GetArmstrong {
 
     public void run() {
 
+        int add = 0, res = 0, x, y;
     }
 }
