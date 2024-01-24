@@ -12,6 +12,7 @@ public class GetArmstrong {
             while (x > 0) {
                 res = x % 10;
                 add = add + (res * res * res);
+                x = x / 10;
             }
         }
     }
