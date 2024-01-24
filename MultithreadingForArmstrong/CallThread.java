@@ -24,6 +24,6 @@ class GetArmstrong extends CallThread {
 public class CallThread {
     public static void main(String[] args) {
 
-
+        GetArmstrong ga = new GetArmstrong();
     }
 }
