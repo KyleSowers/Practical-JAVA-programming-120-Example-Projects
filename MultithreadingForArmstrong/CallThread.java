@@ -1,7 +1,7 @@
 //PRACTICE 116: A PROGRAM TO FIND ARMSTRONG USING MULTITHREADING
 package MultithreadingForArmstrong;
 
-public class GetArmstrong extends CallThread {
+class GetArmstrong extends CallThread {
 
     public void run() {
 
@@ -22,5 +22,8 @@ public class GetArmstrong extends CallThread {
 }
 
 public class CallThread {
+    public static void main(String[] args) {
 
+
+    }
 }
