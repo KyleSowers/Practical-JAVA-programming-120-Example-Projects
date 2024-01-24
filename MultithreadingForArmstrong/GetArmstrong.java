@@ -7,7 +7,7 @@ public class GetArmstrong {
 
         int add = 0, res = 0, x, y;
         for (y = 1; y < 500; y++) {
-
+            x = y;
         }
     }
 }
