@@ -21,11 +21,12 @@ class GetArmstrong extends Thread {
         }
     }
 }
-
 public class CallThread {
+    //main method
     public static void main(String[] args) {
-
+        //create new instance of class GetArmstrong
         GetArmstrong ga = new GetArmstrong();
+        //use new instance to call start method
         ga.start();
     }
 }
