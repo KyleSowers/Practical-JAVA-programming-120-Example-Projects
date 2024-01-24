@@ -15,7 +15,7 @@ public class GetArmstrong {
                 x = x / 10;
             }
             if (add == y) {
-
+                System.out.println(" " + y);
             }
         }
     }
