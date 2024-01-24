@@ -9,6 +9,9 @@ public class GetArmstrong {
         for (y = 1; y < 500; y++) {
             x = y;
             add = res = 0;
+            while (x > 0) {
+
+            }
         }
     }
 }
