@@ -16,6 +16,9 @@ class GetPrime extends Thread {
                 break;
             }
         }
+        if (res == false) {
+
+        }
     }
 }
 
