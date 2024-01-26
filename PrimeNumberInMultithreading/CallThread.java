@@ -3,6 +3,9 @@ package PrimeNumberInMultithreading;
 
 class GetPrime extends Thread {
 
+    public void run() {
+
+    }
 }
 
 public class CallThread {
