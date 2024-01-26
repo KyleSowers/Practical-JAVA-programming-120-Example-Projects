@@ -26,5 +26,6 @@ public class CallThread {
     public static void main(String[] args) {
 
         GetPrime gp = new GetPrime();
+        gp.start();
     }
 }
