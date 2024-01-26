@@ -2,4 +2,7 @@
 package PrimeNumberInMultithreading;
 
 public class CallThread {
+    public static void main(String[] args) {
+
+    }
 }
