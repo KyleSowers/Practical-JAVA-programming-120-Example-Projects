@@ -17,7 +17,7 @@ class GetPrime extends Thread {
             }
         }
         if (res == false) {
-
+            System.out.println(num2 + " is a prime number");
         }
     }
 }
