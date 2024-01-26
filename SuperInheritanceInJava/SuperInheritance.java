@@ -38,4 +38,4 @@ package SuperInheritanceInJava;
             System.out.println("Student's subject is " + sch.subject);
         }
     }
-}
+
