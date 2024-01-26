@@ -10,6 +10,9 @@ class GetPrime extends Thread {
 
         for (num2 = 2; num2 <= 100; num2++) {
 
+            if (num2 % num1 == 0) {
+
+            }
         }
     }
 }
