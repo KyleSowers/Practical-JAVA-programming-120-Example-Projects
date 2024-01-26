@@ -6,6 +6,7 @@ class GetPrime extends Thread {
     public void run() {
 
         int num1, num2 = 2;
+        boolean res;
     }
 }
 
