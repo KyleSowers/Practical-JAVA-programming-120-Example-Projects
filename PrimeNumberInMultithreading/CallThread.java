@@ -12,6 +12,8 @@ class GetPrime extends Thread {
 
             if (num2 % num1 == 0) {
 
+                res = true;
+                break;
             }
         }
     }
