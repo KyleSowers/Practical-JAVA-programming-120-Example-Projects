@@ -6,7 +6,7 @@ public class Alphabets {
     public void run() {
         char x;
         for (x = 'A'; x <= 'Z'; x++) {
-
+            System.out.println(" " + x);
         }
     }
 
