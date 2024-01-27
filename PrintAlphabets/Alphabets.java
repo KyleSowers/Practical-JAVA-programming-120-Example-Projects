@@ -1,7 +1,7 @@
 //PRACTICE 118: A PROGRAM TO PRINT OUT ALPHABETS A-Z USING MULTITHREADING
 package PrintAlphabets;
 
-class CharacterAZ {
+class CharacterAZ extends Thread {
 
     public void run() {
         char x;
