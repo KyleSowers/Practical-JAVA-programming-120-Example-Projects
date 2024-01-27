@@ -1,7 +1,7 @@
 //PRACTICE 118: A PROGRAM TO PRINT OUT ALPHABETS A-Z USING MULTITHREADING
 package PrintAlphabets;
 
-public class Alphabets {
+class CharacterAZ {
 
     public void run() {
         char x;
@@ -9,6 +9,9 @@ public class Alphabets {
             System.out.println(" " + x);
         }
     }
+}
+
+public class Alphabets {
 
     public static void main(String[] args) {
 
