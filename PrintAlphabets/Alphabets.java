@@ -5,6 +5,9 @@ public class Alphabets {
 
     public void run() {
         char x;
+        for (x = 'A'; x <= 'Z'; x++) {
+
+        }
     }
 
     public static void main(String[] args) {
