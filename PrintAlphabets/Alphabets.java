@@ -15,5 +15,7 @@ public class Alphabets {
 
     public static void main(String[] args) {
 
+        CharacterAZ chaz = new CharacterAZ();
+
     }
 }
