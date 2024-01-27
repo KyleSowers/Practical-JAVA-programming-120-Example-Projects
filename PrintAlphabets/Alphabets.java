@@ -4,7 +4,7 @@ package PrintAlphabets;
 public class Alphabets {
 
     public void run() {
-
+        char x;
     }
 
     public static void main(String[] args) {
