@@ -3,6 +3,9 @@ package PrintAlphabetAlternate;
 
 class LowerAZ extends Thread{
 
+    public void run() {
+
+    }
 }
 
 public class AlphabetAZ {
