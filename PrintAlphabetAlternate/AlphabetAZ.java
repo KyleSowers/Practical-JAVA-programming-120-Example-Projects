@@ -9,6 +9,8 @@ class LowerAZ extends Thread{
             try {
                 x = x + 2;
                 System.out.println(" " + (char)x);
+            } catch ( Exception e) {
+
             }
         }
     }
