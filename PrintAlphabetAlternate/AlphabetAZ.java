@@ -4,7 +4,7 @@ package PrintAlphabetAlternate;
 class LowerAZ extends Thread{
 
     public void run() {
-
+        int x = 97;
     }
 }
 
