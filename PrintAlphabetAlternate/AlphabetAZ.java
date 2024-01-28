@@ -20,5 +20,6 @@ public class AlphabetAZ {
 
     public static void main(String[] args) {
 
+        LowerAZ laz = new LowerAZ();
     }
 }
