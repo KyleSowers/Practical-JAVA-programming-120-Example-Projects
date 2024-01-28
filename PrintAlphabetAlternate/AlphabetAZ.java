@@ -1,7 +1,7 @@
 //PRACTICE 119: A PROGRAM TO PRINT OUT ALPHABET USING ALTERNATE
 package PrintAlphabetAlternate;
 
-class LowerAZ {
+class LowerAZ extends Thread{
 
 }
 
