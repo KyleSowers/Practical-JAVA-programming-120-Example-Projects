@@ -6,7 +6,10 @@ class LowerAZ extends Thread{
     public void run() {
         int x = 97;
         while (x <= 122) {
-
+            try {
+                x = x + 2;
+                System.out.println(" " + (char)x);
+            }
         }
     }
 }
