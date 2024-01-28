@@ -2,7 +2,7 @@
 package PrintAlphabetAlternate;
 
 class LowerAZ extends Thread{
-
+    //create a public void class for desired method execution
     public void run() {
         int x = 97;
         while (x <= 122) {
@@ -17,10 +17,11 @@ class LowerAZ extends Thread{
 }
 
 public class AlphabetAZ {
-
+    //main method
     public static void main(String[] args) {
-
+        //new instance/object of created class with method
         LowerAZ laz = new LowerAZ();
+        //use object to call method through start() method due to extended Thread on class above
         laz.start();
     }
 }
