@@ -7,6 +7,8 @@ class Even extends Thread {
         for (int x = 1; x <= 10; x++) {
             if (x % 2 == 0) {
                 System.out.println(x + " is an even number");
+            } else {
+                System.out.println(x + " is not an even number");
             }
         }
     }
