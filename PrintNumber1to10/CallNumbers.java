@@ -22,5 +22,6 @@ public class CallNumbers {
 
     public static void main(String[] args) {
          printNumbers pn = new printNumbers();
+         pn.start();
     }
 }
