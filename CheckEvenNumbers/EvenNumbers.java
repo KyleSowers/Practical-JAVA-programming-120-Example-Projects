@@ -1,7 +1,7 @@
 //PRACTICE 121: A PROGRAM TO CHECK FOR EVEN NUMBERS
 package CheckEvenNumbers;
 
-class Even {
+class Even extends Thread {
 
 }
 
