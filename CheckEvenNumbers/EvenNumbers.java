@@ -3,6 +3,9 @@ package CheckEvenNumbers;
 
 class Even extends Thread {
 
+    public void run() {
+
+    }
 }
 
 public class EvenNumbers {
