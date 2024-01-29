@@ -11,6 +11,8 @@ class PrintNumbers extends Thread {
             try {
                 System.out.println(" " + x);
                 Thread.sleep(1000);
+            } catch (InterruptedException e){
+
             }
         }
     }
