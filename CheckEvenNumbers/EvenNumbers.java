@@ -19,5 +19,6 @@ public class EvenNumbers {
     public static void main(String[] args) {
 
         Even e = new Even();
+        e.start();
     }
 }
