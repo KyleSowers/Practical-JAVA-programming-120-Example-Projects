@@ -3,6 +3,9 @@ package PrintNumber1to10;
 
 class PrintNumbers extends Thread {
 
+    public void run() {
+
+    }
 }
 
 public class CallNumbers {
