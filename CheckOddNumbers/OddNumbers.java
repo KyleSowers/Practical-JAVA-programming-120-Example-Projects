@@ -4,7 +4,9 @@ package CheckOddNumbers;
 class Odd extends Thread {
 
     public void run() {
+        for (int x = 1; x <= 10; x++) {
 
+        }
     }
 }
 
