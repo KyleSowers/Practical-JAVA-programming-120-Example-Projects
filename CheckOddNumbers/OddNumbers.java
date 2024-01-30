@@ -3,6 +3,9 @@ package CheckOddNumbers;
 
 class Odd extends Thread {
 
+    public void run() {
+
+    }
 }
 
 public class OddNumbers {
