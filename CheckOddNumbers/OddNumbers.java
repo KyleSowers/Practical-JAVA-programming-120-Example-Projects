@@ -19,5 +19,6 @@ public class OddNumbers {
     public static void main(String[] args) {
 
         Odd o = new Odd();
+        o.start();
     }
 }
