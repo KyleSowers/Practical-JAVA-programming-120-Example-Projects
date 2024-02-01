@@ -29,6 +29,6 @@ public class AdditionSubtraction {
     }
 
     private void initialize() {
-
+        frame = new JFrame();
     }
 }
