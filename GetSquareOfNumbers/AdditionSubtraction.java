@@ -6,6 +6,7 @@ import javax.swing.*;
 public class AdditionSubtraction {
 
     private JFrame frame;
+    private JTextField addvalue;
 
     public static void main(String[] args) {
 
