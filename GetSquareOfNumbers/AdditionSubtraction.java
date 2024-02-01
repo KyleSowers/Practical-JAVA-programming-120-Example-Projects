@@ -24,5 +24,7 @@ public class AdditionSubtraction {
             }
         });
     }
-
+    public AdditionSubtraction() {
+        initialize();
+    }
 }
