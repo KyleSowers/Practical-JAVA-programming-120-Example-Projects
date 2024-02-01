@@ -7,6 +7,7 @@ public class AdditionSubtraction {
 
     private JFrame frame;
     private JTextField addvalue;
+    private JTextField subvalue;
 
     public static void main(String[] args) {
 
