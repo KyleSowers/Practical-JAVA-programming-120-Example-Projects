@@ -33,5 +33,7 @@ public class AdditionSubtraction {
         frame.setBounds(100, 100, 700, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setLayout(null);
+
+        addvalue = new JTextField();
     }
 }
