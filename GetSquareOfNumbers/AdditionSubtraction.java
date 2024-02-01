@@ -27,4 +27,8 @@ public class AdditionSubtraction {
     public AdditionSubtraction() {
         initialize();
     }
+
+    private void initialize() {
+
+    }
 }
