@@ -31,5 +31,6 @@ public class AdditionSubtraction {
     private void initialize() {
         frame = new JFrame();
         frame.setBounds(100, 100, 700, 400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
