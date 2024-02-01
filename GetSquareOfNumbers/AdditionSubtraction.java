@@ -30,5 +30,6 @@ public class AdditionSubtraction {
 
     private void initialize() {
         frame = new JFrame();
+        frame.setBounds(100, 100, 700, 400);
     }
 }
