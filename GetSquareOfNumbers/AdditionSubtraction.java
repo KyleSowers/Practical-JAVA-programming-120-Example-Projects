@@ -2,4 +2,7 @@
 package GetSquareOfNumbers;
 
 public class AdditionSubtraction {
+    public static void main(String[] args) {
+
+    }
 }
