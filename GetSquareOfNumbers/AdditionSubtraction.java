@@ -2,6 +2,7 @@
 package GetSquareOfNumbers;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class AdditionSubtraction {
 
@@ -11,6 +12,17 @@ public class AdditionSubtraction {
     private JTextField txtDisplay;
 
     public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    AdditionSubtraction window = new AdditionSubtraction();
 
+                    window.frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
+
 }
