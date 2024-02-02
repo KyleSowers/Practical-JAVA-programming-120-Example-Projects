@@ -39,5 +39,7 @@ public class AdditionSubtraction {
         addvalue.setBounds(72,41,153,64);
         frame.getContentPane().add(addvalue);
         addvalue.setColumns(10);
+
+        subvalue = new JTextField();
     }
 }
