@@ -15,7 +15,9 @@ public class DateTime {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-
+                try {
+                    DateTime window = new DateTime();
+                }
             }
         });
 
