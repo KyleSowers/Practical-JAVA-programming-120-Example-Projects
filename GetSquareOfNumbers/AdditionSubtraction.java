@@ -72,5 +72,11 @@ public class AdditionSubtraction {
         frame.getContentPane().add(btnAdd);
 
         JButton btnSub = new JButton("SUB");
+        btnSub.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 }
