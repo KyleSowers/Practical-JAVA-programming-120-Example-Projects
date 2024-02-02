@@ -44,5 +44,6 @@ public class AdditionSubtraction {
         subvalue.setFont(new Font("Tahoma", Font.BOLD, 25));
         subvalue.setColumns(10);
         subvalue.setBounds(467, 41, 153, 64);
+        frame.getContentPane().add(subvalue);
     }
 }
