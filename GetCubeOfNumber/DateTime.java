@@ -18,7 +18,9 @@ public class DateTime {
     public void datetime() {
 
         Thread datetime = new Thread() {
+            public void run() {
 
+            }
         }
     }
 }
