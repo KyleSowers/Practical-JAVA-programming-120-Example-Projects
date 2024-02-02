@@ -83,6 +83,8 @@ public class AdditionSubtraction {
                     num2 = Integer.parseInt(subvalue.getText());
 
                     ans = num1 - num2;
+
+                    txtDisplay.setText(Integer.toString(ans));
                 }
             }
         });
