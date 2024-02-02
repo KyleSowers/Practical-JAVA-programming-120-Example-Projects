@@ -38,5 +38,6 @@ public class AdditionSubtraction {
         addvalue.setFont(new Font("Tahoma", Font.BOLD, 25));
         addvalue.setBounds(72,41,153,64);
         frame.getContentPane().add(addvalue);
+        addvalue.setColumns(10);
     }
 }
