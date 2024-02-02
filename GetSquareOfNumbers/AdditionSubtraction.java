@@ -3,6 +3,8 @@ package GetSquareOfNumbers;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AdditionSubtraction {
 
@@ -47,5 +49,11 @@ public class AdditionSubtraction {
         frame.getContentPane().add(subvalue);
 
         JButton btnAdd = new JButton("ADD");
+        btnAdd.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent arg0) {
+
+            }
+        });
     }
 }
