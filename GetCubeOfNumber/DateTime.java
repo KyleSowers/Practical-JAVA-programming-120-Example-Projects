@@ -4,6 +4,7 @@ package GetCubeOfNumber;
 import com.sun.jdi.event.EventQueue;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -56,5 +57,6 @@ public class DateTime {
         frame.getContentPane().setLayout(null);
 
         lblClock = new JLabel("Clock");
+        lblClock.setFont(new Font("Tahoma", Font.BOLD, 25));
     }
 }
