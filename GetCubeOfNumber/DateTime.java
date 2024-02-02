@@ -4,6 +4,8 @@ package GetCubeOfNumber;
 import com.sun.jdi.event.EventQueue;
 
 import javax.swing.*;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class DateTime {
 
@@ -22,7 +24,7 @@ public class DateTime {
             public void run() {
                 try {
                     for (;;) {
-
+                        Calendar cal = new GregorianCalendar();
                     }
                 }
             }
