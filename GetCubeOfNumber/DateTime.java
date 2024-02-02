@@ -30,6 +30,7 @@ public class DateTime {
                         int month = cal.get(Calendar.MONTH);
                         int year = cal.get(Calendar.YEAR);
                         int second = cal.get(Calendar.SECOND);
+                        int minute = cal.get(Calendar.MINUTE);
                     }
                 }
             }
