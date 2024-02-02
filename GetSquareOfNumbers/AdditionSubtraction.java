@@ -54,6 +54,9 @@ public class AdditionSubtraction {
             public void actionPerformed(ActionEvent arg0) {
 
                 int num1,num2,ans;
+                try {
+                    num1 = Integer.parseInt(addvalue.getText());
+                }
             }
         });
     }
