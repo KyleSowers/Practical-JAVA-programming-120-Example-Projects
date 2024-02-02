@@ -36,6 +36,8 @@ public class DateTime {
                         lblClock.setText("Time " + hour + ":" + minute + ":" + second + " " + "Date " + year + "/" + month + "/" + day);
                         sleep(1000);
                     }
+                } catch (Exception e) {
+
                 }
             }
         }
