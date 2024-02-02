@@ -85,6 +85,8 @@ public class AdditionSubtraction {
                     ans = num1 - num2;
 
                     txtDisplay.setText(Integer.toString(ans));
+                } catch (Exception e) {
+                    JOptionPane.showMessageDialog(null, "Omlu Valid/Integer numbers are accepted");
                 }
             }
         });
