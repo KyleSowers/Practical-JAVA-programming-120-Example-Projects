@@ -32,6 +32,9 @@ public class DateTime {
                         int second = cal.get(Calendar.SECOND);
                         int minute = cal.get(Calendar.MINUTE);
                         int hour = cal.get(Calendar.HOUR);
+
+                        lblClock.setText("Time " + hour + ":" + minute + ":" + second + " " + "Date " + year + "/" + month + "/" + day);
+                        sleep(1000);
                     }
                 }
             }
