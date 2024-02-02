@@ -56,6 +56,8 @@ public class AdditionSubtraction {
                 int num1,num2,ans;
                 try {
                     num1 = Integer.parseInt(addvalue.getText());
+
+                    num2 = Integer.parseint(subvalue.getText());
                 }
             }
         });
