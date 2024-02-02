@@ -81,6 +81,8 @@ public class AdditionSubtraction {
                     num1 = Integer.parseInt(addvalue.getText());
 
                     num2 = Integer.parseInt(subvalue.getText());
+
+                    ans = num1 - num2;
                 }
             }
         });
