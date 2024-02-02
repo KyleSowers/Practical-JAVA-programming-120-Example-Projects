@@ -91,5 +91,6 @@ public class AdditionSubtraction {
             }
         });
         btnSub.setFont(new Font("Tahoma", Font.BOLD, 15));
+        btnSub.setBounds(329, 171, 108, 51);
     }
 }
