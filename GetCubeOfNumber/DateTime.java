@@ -1,5 +1,7 @@
 package GetCubeOfNumber;
 
+import com.sun.jdi.event.EventQueue;
+
 import javax.swing.*;
 
 public class DateTime {
@@ -8,6 +10,12 @@ public class DateTime {
     private JLabel lblClock;
 
     public static void main(String[] args) {
+
+
+    }
+
+
+    public void datetime() {
 
     }
 }
