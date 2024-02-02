@@ -95,5 +95,7 @@ public class AdditionSubtraction {
         frame.getContentPane().add(btnSub);
 
         txtDisplay = new JTextField();
+        txtDisplay.setFont(new Font("Tahoma", Font.BOLD, 25));
+
     }
 }
