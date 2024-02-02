@@ -76,9 +76,11 @@ public class AdditionSubtraction {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                int num1,nu2,ans;
+                int num1,num2,ans;
                 try {
                     num1 = Integer.parseInt(addvalue.getText());
+
+                    num2 = Integer.parseInt(subvalue.getText());
                 }
             }
         });
