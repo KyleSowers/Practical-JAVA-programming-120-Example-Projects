@@ -98,5 +98,6 @@ public class AdditionSubtraction {
         txtDisplay.setFont(new Font("Tahoma", Font.BOLD, 25));
         txtDisplay.setBounds(136, 251, 401, 64);
         frame.getContentPane().add(txtDisplay);
+        txtDisplay.setColumns(10);
     }
 }
