@@ -77,6 +77,9 @@ public class AdditionSubtraction {
             public void actionPerformed(ActionEvent e) {
 
                 int num1,nu2,ans;
+                try {
+                    num1 = Integer.parseInt(addvalue.getText());
+                }
             }
         });
     }
