@@ -35,6 +35,7 @@ public class AdditionSubtraction {
         frame.getContentPane().setLayout(null);
 
         addvalue = new JTextField();
-        addvalue.setFont(new Font("Tahoma", Font.BOLD, 25))
+        addvalue.setFont(new Font("Tahoma", Font.BOLD, 25));
+        addvalue.setBounds(72,41,153,64);
     }
 }
