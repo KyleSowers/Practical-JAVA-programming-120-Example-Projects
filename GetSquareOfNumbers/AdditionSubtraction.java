@@ -85,7 +85,7 @@ public class AdditionSubtraction {
                     ans = num1 - num2;
 
                     txtDisplay.setText(Integer.toString(ans));
-                } catch (Exception e) {
+                } catch (Exception e2) {
                     JOptionPane.showMessageDialog(null, "Only Valid/Integer numbers are accepted");
                 }
             }
