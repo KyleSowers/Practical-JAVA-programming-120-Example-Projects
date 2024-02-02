@@ -52,5 +52,6 @@ public class DateTime {
     private void initialize() {
         frame = new JFrame();
         frame.setBounds(100, 100, 703, 365);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
