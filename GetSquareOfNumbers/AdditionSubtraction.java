@@ -67,5 +67,6 @@ public class AdditionSubtraction {
                 }
             }
         });
+        btnAdd.setFont(new Font("Tahoma", Font.BOLD, 15));
     }
 }
