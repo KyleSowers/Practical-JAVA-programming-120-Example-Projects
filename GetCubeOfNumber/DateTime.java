@@ -50,6 +50,6 @@ public class DateTime {
     }
 
     private void initialize() {
-
+        frame = new JFrame();
     }
 }
