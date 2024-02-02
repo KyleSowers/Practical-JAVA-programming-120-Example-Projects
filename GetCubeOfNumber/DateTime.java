@@ -17,6 +17,7 @@ public class DateTime {
             public void run() {
                 try {
                     DateTime window = new DateTime();
+                    window.frame.setVisible(true);
                 }
             }
         });
