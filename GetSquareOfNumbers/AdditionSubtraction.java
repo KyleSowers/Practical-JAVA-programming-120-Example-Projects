@@ -53,6 +53,7 @@ public class AdditionSubtraction {
             @Override
             public void actionPerformed(ActionEvent arg0) {
 
+                int num1,num2,ans;
             }
         });
     }
