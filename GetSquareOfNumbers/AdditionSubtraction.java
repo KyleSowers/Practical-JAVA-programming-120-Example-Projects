@@ -86,9 +86,10 @@ public class AdditionSubtraction {
 
                     txtDisplay.setText(Integer.toString(ans));
                 } catch (Exception e) {
-                    JOptionPane.showMessageDialog(null, "Omlu Valid/Integer numbers are accepted");
+                    JOptionPane.showMessageDialog(null, "Only Valid/Integer numbers are accepted");
                 }
             }
         });
+        btnSub.setFont(new Font("Tahoma", Font.BOLD, 15));
     }
 }
