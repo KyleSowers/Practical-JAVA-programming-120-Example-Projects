@@ -45,6 +45,7 @@ public class DateTime {
     }
 
     public DateTime() {
-
+        initialize();
+        datetime();
     }
 }
