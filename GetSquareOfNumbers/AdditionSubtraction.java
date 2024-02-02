@@ -41,5 +41,6 @@ public class AdditionSubtraction {
         addvalue.setColumns(10);
 
         subvalue = new JTextField();
+        subvalue.setFont(new Font("Tahoma", Font.BOLD, 25));
     }
 }
