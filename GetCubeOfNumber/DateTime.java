@@ -27,6 +27,7 @@ public class DateTime {
                         Calendar cal = new GregorianCalendar();
 
                         int day = cal.get(Calendar.DAY_OF_MONTH);
+                        int month cal.get(Calendar.MONTH);
                     }
                 }
             }
