@@ -58,5 +58,6 @@ public class DateTime {
 
         lblClock = new JLabel("Clock");
         lblClock.setFont(new Font("Tahoma", Font.BOLD, 25));
+        lblClock.setBounds(24, 69, 640, 175);
     }
 }
