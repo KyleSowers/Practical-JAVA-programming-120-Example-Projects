@@ -18,6 +18,8 @@ public class DateTime {
                 try {
                     DateTime window = new DateTime();
                     window.frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
         });
