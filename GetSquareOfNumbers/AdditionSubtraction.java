@@ -70,5 +70,7 @@ public class AdditionSubtraction {
         btnAdd.setFont(new Font("Tahoma", Font.BOLD, 15));
         btnAdd.setBounds(223,171,108, 51);
         frame.getContentPane().add(btnAdd);
+
+        JButton btnSub = new JButton("SUB");
     }
 }
