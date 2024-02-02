@@ -43,4 +43,8 @@ public class DateTime {
         };
         datetime.start();
     }
+
+    public DateTime() {
+
+    }
 }
