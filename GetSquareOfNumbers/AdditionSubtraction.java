@@ -76,6 +76,7 @@ public class AdditionSubtraction {
             @Override
             public void actionPerformed(ActionEvent e) {
 
+                int num1,nu2,ans;
             }
         });
     }
