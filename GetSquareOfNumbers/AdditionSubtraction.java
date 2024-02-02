@@ -45,5 +45,7 @@ public class AdditionSubtraction {
         subvalue.setColumns(10);
         subvalue.setBounds(467, 41, 153, 64);
         frame.getContentPane().add(subvalue);
+
+        JButton btnAdd = new JButton("ADD");
     }
 }
