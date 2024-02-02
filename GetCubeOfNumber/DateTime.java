@@ -20,7 +20,11 @@ public class DateTime {
 
         Thread datetime = new Thread() {
             public void run() {
+                try {
+                    for (;;) {
 
+                    }
+                }
             }
         }
     }
