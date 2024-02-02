@@ -1,8 +1,6 @@
 //PRACTICE 124: A SWING PROGRAM TO DISPLAY DATE AND TIME
 package GetCubeOfNumber;
 
-import com.sun.jdi.event.EventQueue;
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.Calendar;
@@ -14,7 +12,12 @@ public class DateTime {
     private JLabel lblClock;
 
     public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
 
+            }
+        });
 
     }
 
